@@ -144,6 +144,12 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+.jrLogo > svg {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+  padding: 20px 0px; }
+
 /**
  * Site header
  */
@@ -151,6 +157,7 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
+  vertical-align: middle;
   position: relative; }
 
 .site-title {
@@ -159,18 +166,22 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left;
+  vertical-align: middle; }
   .site-title, .site-title:visited {
     color: #424242; }
 
 .site-nav {
+  vertical-align: middle;
   float: right;
-  line-height: 56px; }
+  line-height: 20px; }
   .site-nav .menu-icon {
-    display: none; }
+    display: none;
+    vertical-align: middle; }
   .site-nav .page-link {
     color: #111;
-    line-height: 1.5; }
+    line-height: 1.5;
+    vertical-align: bottom; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {

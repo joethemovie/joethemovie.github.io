@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    vertical-align: middle;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -17,6 +18,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    vertical-align: middle;
 
     &,
     &:visited {
@@ -25,16 +27,19 @@
 }
 
 .site-nav {
+    vertical-align: middle;
     float: right;
-    line-height: 56px;
+    line-height: 20px;
 
     .menu-icon {
         display: none;
+        vertical-align: middle;
     }
 
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        vertical-align: bottom;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
