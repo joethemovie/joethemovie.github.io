@@ -147,7 +147,6 @@ pre {
 .jrLogo > svg {
   display: inline-block;
   width: 200px;
-  vertical-align: middle;
   padding: 20px 0px; }
 
 /**
@@ -179,9 +178,11 @@ pre {
     display: none;
     vertical-align: middle; }
   .site-nav .page-link {
+    display: inline-block;
     color: #111;
     line-height: 1.5;
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    padding-top: 73px; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
@@ -213,8 +214,7 @@ pre {
         display: block;
         padding-bottom: 5px; }
       .site-nav .page-link {
-        display: block;
-        margin: 500px;
+        display: inline;
         padding: 5px 10px;
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
@@ -224,10 +224,12 @@ pre {
  * Site footer
  */
 .site-footer {
+  background: #1d2228;
   border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
 
 .footer-heading {
+  color: #FAFAFA;
   font-size: 18px;
   margin-bottom: 15px; }
 
@@ -238,7 +240,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #FAFAFA;
   margin-left: -15px; }
 
 .footer-col {

@@ -37,9 +37,11 @@
     }
 
     .page-link {
+        display: inline-block;
         color: $text-color;
         line-height: $base-line-height;
         vertical-align: bottom;
+        padding-top: 73px;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -86,8 +88,7 @@
         }
 
         .page-link {
-            display: block;
-            margin: 500px;
+            display: inline;
             padding: 5px 10px;
 
             &:not(:last-child) {
@@ -104,11 +105,13 @@
  * Site footer
  */
 .site-footer {
+    background: #1d2228;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
+    color: #FAFAFA;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
@@ -121,7 +124,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: #FAFAFA;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
