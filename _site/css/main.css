@@ -214,6 +214,7 @@ pre {
         padding-bottom: 5px; }
       .site-nav .page-link {
         display: block;
+        margin: 500px;
         padding: 5px 10px;
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
