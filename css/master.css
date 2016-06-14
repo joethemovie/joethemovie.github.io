@@ -284,7 +284,9 @@ footer a:hover {
 		font-size: 35px;
 		padding: 0% 0 0 1%;
 	}
-
+	#portfolioContainer {
+		height: 100%;
+	}
 	#webContent {
 		width: 100%;
 		padding: 5%;
@@ -327,6 +329,9 @@ footer a:hover {
 	#graphicDesignContent img {
 		width: 45%;
 	}
+	footer {
+		height: 460px;
+	}
 	#footerText {
 		padding: 70px 0;
 		font-size: 14px;
@@ -337,6 +342,7 @@ footer a:hover {
 	footer a:hover {
 		color: #9c0aa8;
 	}
+
 }
 @media only screen and (max-width: 594px){
 	#headerImg img {
@@ -349,4 +355,5 @@ footer a:hover {
 		display: block;
 		text-align: center;
 	}
+
 }
