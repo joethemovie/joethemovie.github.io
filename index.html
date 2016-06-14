@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <title>joethemovie.com | Portfolio of Joe Romero</title>
     <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link href='https://fonts.googleapis.com/css?family=Yellowtail|Inconsolata|Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
   </head>
   <body>
 
@@ -16,9 +19,9 @@
       <div id="navbar">
         <ul>
 
-          <li><a href="#" alt="about">about</a></li>
-          <li><a href="#" alt="portfolio">portfolio</a></li>
-          <li><a href="#" alt="contact">contact</a></li>
+          <li><a href="#about" alt="about">about</a></li>
+          <li><a href="#portfolio" alt="portfolio">portfolio</a></li>
+          <li><a href="#contact" alt="contact">contact</a></li>
         </ul>
       </div>
     </header>
@@ -26,36 +29,37 @@
 
 <!-- BEGIN ABOUT -->
     <section id="aboutContainer">
+      <a name="about"></a>
       <div class="sectionHeading aboutHeading">
         <h1>About me</h1>
         </div>
         <div id="aboutInfo">
           <ul class="programmingMock">
             <li>.hello &lbrace;</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-            <li>&semi;&rbrace;</li>
+            <li><br>Thank you for stopping by! My name is Joe Romero. I am a designer/ developer based out of New Jersey. If you’re interested in having work done please <a href="#contact" style="text-decoration: underline;">contact me</a>. <br><br>I have experience with:<br> Brand Development, Logo Creation, Web Design, Print Media, Video and Voiceover work.
+<br><br>
+Let’s make something Awesome Together.</li>
+            <li><br>&semi;&rbrace;</li>
           </ul>
 
-      </div>
-      <div class="aboutImg">
-        <img src="assets/blueBgImage.png" alt="about section background" class="aboutImg" />
       </div>
     </section>
 <!-- END ABOUT     -->
 
 <!-- BEGIN PORTFOLIO -->
     <section id="portfolioContainer">
-      <div class="sectionHeading aboutHeading">
+      <a name="portfolio"></a>
+      <div class="sectionHeading aboutHeading portfolioHeading">
         <h1>Things I've Done</h1>
       </div>
 
       <div id="portfolioNav">
         <ul class="programmingMock">
-          <li>#work &lbrace;</li>
-          <li><a href="#" alt="Web Design">.web_design</a></li>
-          <li><a href="#" alt="Multi Media">.multi_media</a></li>
-          <li><a href="#" alt="Graphic Design">.graphic_design</a></li>
-          <li>&semi;&rbrace;</li>
+          <li class="portMock">#work &lbrace;</li>
+          <li><button id="web">.web_design</button></li>
+          <li><button id="mm">.multi_media</button></li>
+          <li><button id="gfx">.graphic_design</button></li>
+          <li class="portMock">&semi;&rbrace;</li>
         </ul>
       </div>
 
@@ -69,15 +73,15 @@
   <div class="shellContent">
     <ul class="programmingMock webDesignColors">
       <li style="color: #00eaff;">#email <span style="color: #fafafa;">&lbrace;</span></li>
-      <li><a href="#" alt="Memorial Day">.memorial_day</a></li>
-      <li><a href="#" alt="Memorial Day 2">.memorial_day_2</a></li>
-      <li><a href="#" alt="Summer Blast">.summer_blast</a></li>
-      <li><a href="#" alt="Vehicle Trade">.vehicle_trade</a></li>
+      <li><a href="assets/web/subarublast.html" alt="Memorial Day" target="_blank">.memorial_day</a></li>
+      <li><a href="assets/web/mazdablast.html" alt="Memorial Day 2" target="_blank">.memorial_day_2</a></li>
+      <li><a href="assets/web/2015email.html" alt="Summer Blast" target="_blank">.summer_blast</a></li>
+      <li><a href="assets/web/blast3.html" alt="Vehicle Trade" target="_blank">.vehicle_trade</a></li>
       <li><span style="color: #fafafa;">&semi;&rbrace;</span></li>
       <br>
       <li style="color: #00eaff;">#web <span style="color: #fafafa;">&lbrace;</span></li>
-      <li><a href="#" alt="Old Muse Site">.old_muse_site</a></li>
-      <li><a href="#" alt="thequestzone.net">.quest_zone</a></li>
+      <li><a href="http://joethewhitenoise.businesscatalyst.com/index.html" alt="Old Muse Site" target="_blank">.old_muse_site</a></li>
+      <li><a href="http://thequestzone.net" alt="thequestzone.net" target="_blank">.quest_zone</a></li>
 
       <li><span style="color: #fafafa;">&semi;&rbrace;</span></li>
     </ul>
@@ -88,23 +92,23 @@
 
 <!-- BEGIN MULTIMEDIA CONTENT -->
 <div id="multiMediaContent">
-  <img src="assets/video/video_prev_one.png" alt="" class="multiMediaImg" />
-  <img src="assets/video/video_prev_two.png" alt="" class="multiMediaImg" />
-  <img src="assets/video/video_prev_three.png" alt="" class="multiMediaImg" />
-  <img src="assets/video/video_prev_four.png" alt="" class="multiMediaImg" />
-  <img src="assets/video/video_prev_five.png" alt="" class="multiMediaImg" />
-  <img src="assets/video/video_prev_six.png" alt="" class="multiMediaImg" />
+  <a href="" target="_blank"><img src="assets/video/video_prev_one.png" alt="" class="multiMediaImg" /></a>
+  <a href="https://www.youtube.com/watch?v=b6UMepJnBx0" target="_blank"><img src="assets/video/video_prev_two.png" alt="" class="multiMediaImg" /></a>
+  <a href="https://youtu.be/V3gDDJEvUMM" target="_blank"><img src="assets/video/video_prev_three.png" alt="" class="multiMediaImg" /></a>
+  <a href="https://www.youtube.com/watch?v=57nrgJo2Spg" target="_blank"><img src="assets/video/video_prev_four.png" alt="" class="multiMediaImg" /></a>
+  <a href="https://youtu.be/b2ywk-yMc5I" target="_blank"><img src="assets/video/video_prev_five.png" alt="" class="multiMediaImg" /></a>
+  <a href="https://www.youtube.com/watch?v=c2vl4D98rCA" target="_blank"><img src="assets/video/video_prev_six.png" alt="" class="multiMediaImg" /></a>
 </div>
 <!-- END MULTIMEDIA CONTENT       -->
 
 <!-- BEGIN GRAPHIC DESIGN CONTENT -->
 <div id="graphicDesignContent">
-  <img src="assets/gfx/gfx_prev_one.png" alt="" class="graphicDesignImg" />
-  <img src="assets/gfx/gfx_prev_two.png" alt="" class="graphicDesignImg" />
-  <img src="assets/gfx/gfx_prev_three.png" alt="" class="graphicDesignImg" />
-  <img src="assets/gfx/gfx_prev_four.png" alt="" class="graphicDesignImg" />
-  <img src="assets/gfx/gfx_prev_five.png" alt="" class="graphicDesignImg" />
-  <img src="assets/gfx/gfx_prev_six.png" alt="" class="graphicDesignImg" />
+  <a href="assets/gfx/large/gfxOne.jpg" data-lightbox="graphic design"><img src="assets/gfx/gfx_prev_one.png" alt="" class="graphicDesignImg" /></a>
+  <a href="assets/gfx/large/gfxTwo.jpg" data-lightbox="graphic design"><img src="assets/gfx/gfx_prev_two.png" alt="" class="graphicDesignImg" /></a>
+  <a href="assets/gfx/large/gfxThree.jpg" data-lightbox="graphic design"><img src="assets/gfx/gfx_prev_three.png" alt="" class="graphicDesignImg" /></a>
+  <a href="assets/gfx/large/gfxFour.jpg" data-lightbox="graphic design"><img src="assets/gfx/gfx_prev_four.png" alt="" class="graphicDesignImg" /></a>
+  <a href="assets/gfx/large/gfxFive.png" data-lightbox="graphic design"><img src="assets/gfx/gfx_prev_five.png" alt="" class="graphicDesignImg" /></a>
+  <a href="assets/gfx/large/gfxSix.jpg" data-lightbox="graphic design"><img src="assets/gfx/gfx_prev_six.png" alt="" class="graphicDesignImg" /></a>
 </div>
 <!-- END GRAPHIC DESIGN CONTENT       -->
 
@@ -113,20 +117,23 @@
 
 <!-- BEGIN CONTACT -->
     <footer>
+      <a name="contact"></a>
       <div class="sectionHeading contactHeading">
         <h1>Contact me @</h1>
       </div>
       <div class="iconContainer">
         <ul>
-          <li><a href="#"><img src="assets/Icons/ig.svg" alt="Instagram" /></a></li>
-          <li><a href="#"><img src="assets/Icons/gh.svg" alt="GitHub" /></a></li>
-          <li><a href="#"><img src="assets/Icons/tw.svg" alt="Twitter" /></a></li>
-          <li><a href="#"><img src="assets/Icons/in.svg" alt="LinkedIn" /></a></li>
+          <li><a href="https://www.instagram.com/joethemovie/" target="_blank"><img src="assets/Icons/ig.svg" alt="Instagram" /></a></li>
+          <li><a href="https://github.com/joethemovie/" target="_blank"><img src="assets/Icons/gh.svg" alt="GitHub" /></a></li>
+          <li><a href="https://twitter.com/joethemovie" target="_blank"><img src="assets/Icons/tw.svg" alt="Twitter" /></a></li>
+          <li><a href="https://www.linkedin.com/in/romerojo" target="_blank"><img src="assets/Icons/in.svg" alt="LinkedIn" /></a></li>
         </ul>
       </div>
       <p id="footerText">
         <a href="mailto:joe@joethemovie.com">joe@joethemovie.com</a> | @2016 joethemovie.com
       </p>
     </footer>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
   </body>
 </html>

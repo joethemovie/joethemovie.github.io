@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,6 +51,18 @@ body {
   font-family: Inconsolata, monospace;
 	font-size: 18px;
 }
+button:focus {outline:0;}
+input, button, submit
+{
+  border:none;
+	background-color: transparent;
+	font-family: Inconsolata, monospace;
+	font-size: 18px;
+}
+input:hover, button:hover, submit:hover
+{
+  color: #9c0aa8;
+}
 .sectionHeading {
   font-size: 70px;
   font-family: Yellowtail, cursive;
@@ -66,7 +77,19 @@ body {
   text-align: center;
 }
 #aboutContainer {
+	background-image: url(http://i.imgur.com/Pxke45b.png);
+	background-repeat: no-repeat;
+	background-position: right;
   background-color: #0083c4;
+	height: 712px;
+	width: 100%;
+}
+#aboutInfo {
+	width: 70%
+}
+#aboutInfo ul {
+	padding: 7%;
+	font-size: 25px;
 }
 #portfolioContainer {
   background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cork-wallet.png");
@@ -77,13 +100,14 @@ body {
 }
 header {
 	display: inline;
+	width: 100%;
 }
 #headerImg img {
 	width: 190px;
 	display: inline;
 	float: left;
 	clear: both;
-	padding: 40px 0 0 70px;
+	padding: 4% 5% 5% 5%;
 }
 header li {
 	display: inline;
@@ -91,7 +115,7 @@ header li {
 }
 header ul {
 	text-align: right;
-	padding: 60px 70px 60px 0;
+	padding: 5%;
 }
 header a {
 	padding: 10px 10px;
@@ -101,7 +125,30 @@ header a {
 	text-decoration: none;
 	font-family: Helvetica;
 }
+header a:hover {
+	color: #ffffff;
+}
+.portfolioHeading {
 
+}
+#portfolioContainer {
+	height: 714px;
+	display: block;
+}
+#webContent{
+	width: 50%;
+	padding: 7% 15%;
+	margin: 0 20%;
+}
+#portfolioNav {
+	float:left;
+	display: inline;
+	font-size: 35px;
+	padding: 7% 0 0 7%;
+}
+#portfolioNav button {
+	font-size: 35px;
+}
 .programmingMock {
 	color: #000000;
 }
@@ -112,14 +159,10 @@ header a {
 .programmingMock a:hover {
 	color: #9c0aa8;
 }
-.aboutImg {
-	display: inline;
+.portMock {
+	color: #7a7a7a;
 }
-#webContent{
-	width: 50%;
-	float: right;
-	padding: 0 20%;
-}
+
 .shellHeading {
 	background: #fafafa; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#cfcfcf, #aaaaaa); /* For Safari 5.1 to 6.0 */
@@ -149,6 +192,22 @@ header a {
 	color:#ff6000;
 	display: block;
 }
+#multiMediaContent {
+	width: 60%;
+	padding: 7% 0 0 35%;
+
+}
+#multiMediaContent img {
+	width: 25%;
+}
+#graphicDesignContent {
+	width: 60%;
+	padding: 7% 0 0 35%;
+
+}
+#graphicDesignContent img {
+	width: 25%;
+}
 footer {
 	text-align: center;
 	padding: 110px 0 110px 0;
@@ -161,6 +220,10 @@ footer {
 }
 .iconContainer img{
 	width: 15%;
+}
+.fil0:hover{
+	fill: #ffffff;
+	display:
 }
 #footerText {
 	padding: 70px 0;
