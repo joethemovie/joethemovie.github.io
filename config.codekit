@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/blueBgImageMobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207292,
+		"inputAbbreviatedPath": "\/assets\/blueBgImageMobile.png",
+		"outputAbbreviatedPath": "\/assets\/blueBgImageMobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/gfx\/gfx_prev_five.png": {
 		"fileType": 32768,
 		"ignore": 0,

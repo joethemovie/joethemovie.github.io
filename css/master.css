@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -243,12 +244,106 @@ footer a:hover {
 
 
 /*MEDIA QUERIES*/
+@media only screen and (min-width: 958px){
+.mobileBreak {
+	display: none;
+	}
+}
+@media only screen and (max-width: 958px){
 
+	#portfolioNavMobile {
+		display: none;
+	}
+	#aboutContainer {
+		background-image: url(http://i.imgur.com/uVvQOyS.png);
+		background-repeat: no-repeat;
+		background-position: right;
+	  background-color: #0083c4;
+		height: 640px;
+		width: 100%;
+	}
+	.aboutHeading, .sectionHeading{
+		font-size: 50px;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#aboutInfo {
+		color: #000000;
+		width: 80%;
+		margin: auto;
+	}
+	#aboutInfo ul {
+		padding: 7%;
+		font-size: 22px;
+		list-style: none;
+	}
+	#portfolioNav {
+		float:none;
+		display: block;
+		font-size: 35px;
+		padding: 0% 0 0 1%;
+	}
+
+	#webContent {
+		width: 100%;
+		padding: 5%;
+		margin: auto;
+	}
+	.aboutContent {
+		color: #ffffff;
+		padding: 20% 0%;
+		margin: auto;
+	}
+	.aboutContent a{
+		color: #ffffff;
+	}
+	#portfolioMobile li{
+		display: inline;
+		font-size: 16px;
+		list-style: none;
+	}
+	.portMock {
+		display: block;
+	}
+	#portfolioMobile button {
+		font-size: 18px;
+		list-style: none;
+		padding: 0;
+	}
+	#multiMediaContent{
+		width: 80%;
+		padding: 0;
+		margin: auto;
+	}
+	#multiMediaContent img {
+		width: 45%;
+	}
+	#graphicDesignContent{
+		width: 80%;
+		padding: 0;
+		margin: auto;
+	}
+	#graphicDesignContent img {
+		width: 45%;
+	}
+	#footerText {
+		padding: 70px 0;
+		font-size: 14px;
+	}
+	footer a {
+		color: #F9F9F9;
+	}
+	footer a:hover {
+		color: #9c0aa8;
+	}
+}
 @media only screen and (max-width: 594px){
 	#headerImg img {
 		display: block;
 		float: none;
-		margin: auto 0;
+		margin: auto auto;
+		padding: 10% 0 0 0;
 	}
 	header ul{
 		display: block;
