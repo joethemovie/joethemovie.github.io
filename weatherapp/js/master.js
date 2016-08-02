@@ -12,18 +12,11 @@ $(document).ready(function(){
           $('#fahrenheitSection').show();
     });
   });
-$(function(){
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(getLocation);
-    } else {
-        // Sorry..!! Geolocation is not supported by your browser.
-    }
-
-   function getLocation(loc) {
-        	var latitude = loc.coords.latitude;
-                var longitude = loc.coords.longitude;
-                console.log("latitude="+latitude);
-                console.log("longitude="+longitude);
+$.getJSON('http://ip-api.com/json', function(data){
+  var latitude=data.lat;
+  console.log(latitude);
+  var longitude=data.long;
+  console.log(latitude);
 
    var api = 'http://api.openweathermap.org/data/2.5/weather?lat='+latitude+'&lon='+longitude+'&appid=82f1ca5d17b6bd47708b0c0c71288994';
   $.getJSON(api, function(info) {
