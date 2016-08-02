@@ -94,7 +94,7 @@ $.getJSON('http://ip-api.com/json', function(data){
 
 
     });
-   }
+   )};
 
  });
 });
