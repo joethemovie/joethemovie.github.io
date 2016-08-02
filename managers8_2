@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Take $4000 off of Subaru</title>
+  </head>
+  <body style="background-color:#fafafa;">
+    <center>
+      <div class="bodyContainer" style="width: 650px;font-family: Arial, sans-serif;background-color: #9ca2a6;font-size: 16px;color: #24272b;">
+        <div class="imgArea" style="max-width: 650px;text-align: left;">
+          <table>
+            <tr>
+              <td align="left" width="190px;" style="padding: 10px 0 10px 20px;">
+                <div class="logo">
+                    <a href="http://www.ramseysubaru.net/managers-specials.htm"><img src="https://pictures.dealer.com/r/ramseysubaruramseysoa/0834/3b4f8013136e3ab85548c33504ba27acx.jpg" alt="" width="190px"><a>
+                </div>
+              </td>
+              <td width="128px">
+
+              </td>
+              <td style="padding: 0 20px 0 0px; ">
+                <a href="http://www.ramseysubaru.net/dealership/directions.htm" style="color:#ffffff;text-decoration: none;padding: 20px 0 0 0;">905 Rt17s Ramsey, NJ</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:2013270070" style="color:#ffffff;text-decoration: none;">201.327.0070</a>
+              </td>
+            </tr>
+          </table>
+          <a href="http://www.ramseysubaru.net/managers-specials.htm"><img src="https://pictures.dealer.com/r/ramseysubaruramseysoa/1725/ee2081f495950dcb02eb5a7ba1602d7bx.jpg" alt="SUG2120" width="650px;"></a>
+        </div>
+        <div class="supporting" style="padding: 20px 0;color: #24272b;background-color: #9ca2a6;margin:0;border:0;">
+          <h3 style="color: #24272b;padding-top: 20px;font-size: 22px;line-height:1px;">Great Discounts on All Subarus</h3>
+          <p style="color: #24272b;font-size: 16px;padding: 0 30px;">
+            Ramsey Subaru has great offers and incentives on all Subaru vehicles. Now is the time to take advantage. Come in and test drive the Subaru you've been looking for.
+          </p>
+          <a href="http://www.ramseysubaru.net/managers-specials.htm"><img src="https://pictures.dealer.com/r/ramseysubaruramseysoa/0058/5a2aab07d55f06398c62cdd1479386e9x.jpg" alt="Ramsey Subaru Manager's Specials" width="600px"/></a>
+          <h2 style="font-size: 40px;line-height:7px;padding: 30px 0 0 0"><a href="tel:2013270070" style="color:#24272b;text-decoration: none;">Call</a> or <a href="http://ramseysubaru.net/" style="color:#24272b;text-decoration: none;">Click</a></h2>
+          <p style="color: #24272b;padding: 0px 0 10px 0px;">
+            to Reserve your vehicle today!
+          </p>
+        </div>
+        <div class="footer" style="padding: 10px 0 10px 0;">
+          <p>
+            <a href="http://ramseysubaru.net/" style="color:#24272b;text-decoration: underline;">RamseySubaru.Net</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="tel:2013270070" style="color:#24272b;text-decoration: underline;">201.327.0070</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.ramseysubaru.net/dealership/directions.htm" style="color:#24272b;text-decoration: underline;">905 Rt17s Ramsey, NJ</a>
+          </p>
+           <p style="font-size:10px; padding: 20px 30px 20px 30px;">
+             Discounted Demo 2016 Subaru STI Stock #: SUG2120 VIN:JF1VA2Y65G9835076. See dealer for details on other discounts.<br> Not responsible for typographical errors.
+           </p>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
