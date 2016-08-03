@@ -90,7 +90,7 @@ $(document).ready(function(){
       }
     }
 
-    $("#imageArea") .html(imageDisplay);
+    $("#imageArea") .html(imageDisplay + "<br>" + city);
     $("#fbArea") .html('"' + fbDisplay + '"');
     $(".info") .html("click to change");
 
