@@ -12,11 +12,13 @@ $(document).ready(function(){
           $('#fahrenheitSection').show();
     });
   });
-$.getJSON('http://ip-api.com/json', function(data){
-  var latitude=data.lat;
-  console.log(latitude);
-  var longitude=data.long;
-  console.log(latitude);
+  $.getJSON('http://ip-api.com/json', function(data){
+    var latitude = data.lat;
+    console.log(latitude);
+    var longitude = data.lon;
+    console.log(longitude);
+
+
 
    var api = 'http://api.openweathermap.org/data/2.5/weather?lat='+latitude+'&lon='+longitude+'&appid=82f1ca5d17b6bd47708b0c0c71288994';
   $.getJSON(api, function(info) {
@@ -70,10 +72,10 @@ $.getJSON('http://ip-api.com/json', function(data){
         imageDisplay = tempImage[1];
         fbDisplay= feedback[1];
     } else {
-      if (kelvin <= 340.15) {
+      if (kelvin <= 240.15) {
         imageDisplay = tempImage[2];
         fbDisplay= feedback[2];
-      } else if (kelvin > 340.15 && kelvin <= 288.706) {
+      } else if (kelvin > 240.15 && kelvin <= 288.706) {
         imageDisplay = tempImage[3];
         fbDisplay= feedback[3];
       } else if (kelvin > 288.706 && kelvin <= 299.817) {
@@ -94,7 +96,5 @@ $.getJSON('http://ip-api.com/json', function(data){
 
 
     });
-   )};
-
- });
+});
 });
