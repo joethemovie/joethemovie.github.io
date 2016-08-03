@@ -65,13 +65,7 @@ $(document).ready(function(){
 
 
 
-    if (precip == "Rain") {
-      imageDisplay = tempImage[0];
-      fbDisplay= feedback[0];
-    } else if (precip == "Clouds") {
-        imageDisplay = tempImage[1];
-        fbDisplay= feedback[1];
-    } else {
+  
       if (kelvin <= 240.15) {
         imageDisplay = tempImage[2];
         fbDisplay= feedback[2];
@@ -88,7 +82,7 @@ $(document).ready(function(){
         imageDisplay = tempImage[6];
         fbDisplay= feedback[6];
       }
-    }
+
 
     $("#imageArea") .html(imageDisplay + "<br>" + city);
     $("#fbArea") .html('"' + fbDisplay + '"');
