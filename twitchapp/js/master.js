@@ -3,35 +3,14 @@ $(document).ready(function(){
 var streamers = ["manvsgame", "a_seagull", "esl_overwatch", "brunofin", "comster404", "seriousgaming","ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "empyreanmauler", "zakivory"];
 
 // THIS WAS A SEARCH TEST. IMPLEMENTING IN THE FUTURE
-// var streamerInput  = document.getElementById("commentarea");
-//   $('.commentarea').keydown(function(event) {
-//         if (event.keyCode == 13) {
-//
-//             var searchTerm = $('#searchTerm').val();
-//             // streamers.push(searchTerm);
-//             console.log(streamers);
-//
-//             $.ajax({
-//             type: "GET",
-//             url:'https://api.twitch.tv/kraken/streams/'+ streamers[i] +'?callback=?',
-//             async:false,
-//             dataType:"json",
-//             success: function(data){
-//               // console.log(data[1][0]);
-//               // console.log(data[2][0]);
-//               // console.log(data[3][0]);
-//               streamers.push(searchTerm);
-//               console.log(streamers);
-//
-//
-//
-//
-//               }
-//             });
-//             return streamers;
-//
-//        }
-//     });
+var streamerInput  = document.getElementById("commentarea");
+  $('#search').click(function(){
+
+            var searchTerm = $('#searchTerm').val();
+            streamers.push(searchTerm);
+            console.log(streamers);
+            return streamers;
+    });
 
   for (var i = 0; i < streamers.length; i++) {
     $.getJSON('https://api.twitch.tv/kraken/streams/'+ streamers[i] +'?callback=?', function(data) {
