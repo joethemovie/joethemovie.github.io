@@ -1,0 +1,328 @@
+{
+  "vehicles":{
+    "XC90":{
+      "t5_fwd_momentum":{
+        "months":{
+          "twentyFour":{
+            "residual": "64",
+            "moneyFactor": "0.00118"
+          },
+          "thirty":{
+            "residual": "58",
+            "moneyFactor": "0.00118"
+          },
+          "thirtySix":{
+            "residual": "53",
+            "moneyFactor": "0.00118"
+          },
+          "thirtyNine":{
+            "residual": "51",
+            "moneyFactor": "0.00118"
+          },
+          "fourtyEight":{
+            "residual": "43",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t5_fwd_inscription":{
+        "months":{
+          "twentyFour":{
+            "residual": "63",
+            "moneyFactor": "0.00140"
+          },
+          "thirty":{
+            "residual": "57",
+            "moneyFactor": "0.00140"
+          },
+          "thirtySix":{
+            "residual": "51",
+            "moneyFactor": "0.00140"
+          },
+          "thirtyNine":{
+            "residual": "48",
+            "moneyFactor": "0.00140"
+          },
+          "fourtyEight":{
+            "residual": "42",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t5_fwd_r_design":{
+        "months":{
+          "twentyFour":{
+            "residual": "65",
+            "moneyFactor": "0.00140"
+          },
+          "thirty":{
+            "residual": "60",
+            "moneyFactor": "0.00140"
+          },
+          "thirtySix":{
+            "residual": "53",
+            "moneyFactor": "0.00140"
+          },
+          "thirtyNine":{
+            "residual": "5""1",
+            "moneyFactor": "0.00140"
+          },
+          "fourtyEight":{
+            "residual": "44",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t5_awd_momentum":{
+        "months":{
+          "twentyFour":{
+            "residual": "65",
+            "moneyFactor": "0.00126"
+          },
+          "thirty":{
+            "residual": "58",
+            "moneyFactor": "0.00126"
+          },
+          "thirtySix":{
+            "residual": "55",
+            "moneyFactor": "0.00126"
+          },
+          "thirtyNine":{
+            "residual": "53",
+            "moneyFactor": "0.00126"
+          },
+          "fourtyEight":{
+            "residual": "45",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t5_awd_inscription":{
+        "months":{
+          "twentyFour":{
+            "residual": "61",
+            "moneyFactor": "0.00155"
+          },
+          "thirty":{
+            "residual": "54",
+            "moneyFactor": "0.00168"
+          },
+          "thirtySix":{
+            "residual": "51",
+            "moneyFactor": "0.00168"
+          },
+          "thirtyNine":{
+            "residual": "49",
+            "moneyFactor": "0.00168"
+          },
+          "fourtyEight":{
+            "residual": "43",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t5_awd_r_design":{
+        "months":{
+          "twentyFour":{
+            "residual": "65",
+            "moneyFactor": "######"
+          },
+          "thirty":{
+            "residual": "60",
+            "moneyFactor": "0.00168"
+          },
+          "thirtySix":{
+            "residual": "55",
+            "moneyFactor": "0.00168"
+          },
+          "thirtyNine":{
+            "residual": "53",
+            "moneyFactor": "0.00168"
+          },
+          "fourtyEight":{
+            "residual": "46",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t6_awd_momentum":{
+        "months":{
+          "twentyFour":{
+            "residual": "64",
+            "moneyFactor": "0.00061"
+          },
+          "thirty":{
+            "residual": "58",
+            "moneyFactor": "0.00061"
+          },
+          "thirtySix":{
+            "residual": "54",
+            "moneyFactor": "0.00061"
+          },
+          "thirtyNine":{
+            "residual": "53",
+            "moneyFactor": "0.00061"
+          },
+          "fourtyEight":{
+            "residual": "44",
+            "moneyFactor": "0.00111"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t6_awd_inscription":{
+        "months":{
+          "twentyFour":{
+            "residual": "60",
+            "moneyFactor": "0.00070"
+          },
+          "thirty":{
+            "residual": "54",
+            "moneyFactor": "0.00070"
+          },
+          "thirtySix":{
+            "residual": "51",
+            "moneyFactor": "0.00100"
+          },
+          "thirtyNine":{
+            "residual": "49",
+            "moneyFactor": "0.00107"
+          },
+          "fourtyEight":{
+            "residual": "43",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t6_awd_r_design":{
+        "months":{
+          "twentyFour":{
+            "residual": "63",
+            "moneyFactor": "0.00070"
+          },
+          "thirty":{
+            "residual": "57",
+            "moneyFactor": "0.00070"
+          },
+          "thirtySix":{
+            "residual": "54",
+            "moneyFactor": "0.00100"
+          },
+          "thirtyNine":{
+            "residual": "52",
+            "moneyFactor": "0.00107"
+          },
+          "fourtyEight":{
+            "residual": "46",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t6_awd_first_edition":{
+        "months":{
+          "twentyFour":{
+            "residual": "60",
+            "moneyFactor": "0.00070"
+          },
+          "thirty":{
+            "residual": "56",
+            "moneyFactor": "0.00070"
+          },
+          "thirtySix":{
+            "residual": "52",
+            "moneyFactor": "0.00100"
+          },
+          "thirtyNine":{
+            "residual": "50",
+            "moneyFactor": "0.00107"
+          },
+          "fourtyEight":{
+            "residual": "43",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      },
+      "t8_awd_momentum":{
+        "twentyFour":{
+          "residual": "57",
+          "moneyFactor": "0.00083"
+        },
+        "thirty":{
+          "residual": "50",
+          "moneyFactor": "0.00083"
+        },
+        "thirtySix":{
+          "residual": "45",
+          "moneyFactor": "0.00091"
+        },
+        "thirtyNine":{
+          "residual": "43",
+          "moneyFactor": "0.00091"
+        },
+        "fourtyEight":{
+          "residual": "38",
+          "moneyFactor": "0.00174"
+        }
+      },
+      "non_cash_credit": "4585"
+      },
+      "t8_awd_inscription":{
+        "twentyFour":{
+          "residual": "56",
+          "moneyFactor": "0.00100"
+        },
+        "thirty":{
+          "residual": "49",
+          "moneyFactor": "0.00100"
+        },
+        "thirtySix":{
+          "residual": "43",
+          "moneyFactor": "0.00114"
+        },
+        "thirtyNine":{
+          "residual": "42",
+          "moneyFactor": "0.00114"
+        },
+        "fourtyEight":{
+          "residual": "36",
+          "moneyFactor": "0.00174"
+        }
+      },
+      "non_cash_credit": "4585"
+      },
+      "t8_awd_r_design":{
+        "twentyFour":{
+          "residual": "57",
+          "moneyFactor": "0.00100"
+        },
+        "thirty":{
+          "residual": "51",
+          "moneyFactor": "0.00100"
+        },
+        "thirtySix":{
+          "residual": "45",
+          "moneyFactor": "0.00114"
+        },
+        "thirtyNine":{
+          "residual": "44",
+          "moneyFactor": "0.00114"
+        },
+        "fourtyEight":{
+          "residual": "38",
+          "moneyFactor": "0.00174"
+        }
+      },
+      "non_cash_credit": "4585"
+      }
+    }
+  }
+}
