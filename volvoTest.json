@@ -1,0 +1,56 @@
+{
+  "vehicles":{
+    "XC90":{
+      "t5_fwd_momentum":{
+        "months":{
+          "twentyFour":{
+            "residual": "64",
+            "moneyFactor": "0.00118"
+          },
+          "thirty":{
+            "residual": "58",
+            "moneyFactor": "0.00118"
+          },
+          "thirtySix":{
+            "residual": "53",
+            "moneyFactor": "0.00118"
+          },
+          "thirtyNine":{
+            "residual": "51",
+            "moneyFactor": "0.00118"
+          },
+          "fourtyEight":{
+            "residual": "43",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "cash_credit": "0"
+      },
+      "t5_fwd_inscription":{
+        "months":{
+          "twentyFour":{
+            "residual": "63",
+            "moneyFactor": "0.00140"
+          },
+          "thirty":{
+            "residual": "57",
+            "moneyFactor": "0.00140"
+          },
+          "thirtySix":{
+            "residual": "51",
+            "moneyFactor": "0.00140"
+          },
+          "thirtyNine":{
+            "residual": "48",
+            "moneyFactor": "0.00140"
+          },
+          "fourtyEight":{
+            "residual": "42",
+            "moneyFactor": "0.00174"
+          }
+        },
+        "non_cash_credit": "0"
+      }
+    }
+  }
+}
