@@ -78,17 +78,12 @@
           <a href="#" id="specialURL">BUILD LEASE</a>
           <script type="text/javascript">
 $(document).ready(function() {
-
-  var url = $('h1').html();
-  url = url.replace(/\s+/g, '-').toLowerCase()+'.html';
-
-
+   var url = $('h1').html();
+   // url = url.replace(/\s+/g, '-').toLowerCase()+'.html';
   console.log(url);
-$('#specialURL').attr('href', 'http://joethemovie.com/' + url );
-
-var url2 = window.location.href;
+  $('#specialURL').attr('href', 'http://joethemovie.com/?h1=' + encodeURIComponent(url) +"&price=" + encodeURIComponent("about tree fiddy"));
+  var url2 = window.location.href;
   console.log(url2);
-
 });
           </script>
         </p>
