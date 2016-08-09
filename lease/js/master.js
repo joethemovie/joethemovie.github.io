@@ -4,7 +4,7 @@ $(document).ready(function(){
 // residual lease end value
 
 
-var url2 = window.location.href;
+var url2 = window.location.host;
               console.log(url2);
 var pricing = url2.substr(1, -5);
               console.log(pricing + " this is a price");
