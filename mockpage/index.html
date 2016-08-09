@@ -56,6 +56,9 @@
         width: 645px;
         margin: auto;
       }
+      #priceArea{
+        font-size: 18px;
+      }
     </style>
   </head>
   <body>
@@ -67,9 +70,9 @@
       </div>
       <div class="rightCon">
         <p>
-          MSRP: $32,457
+          MSRP: <sup>$</sup><span id="priceArea">32,457</span>
           <br>
-          EST. Finance: $644/MO<sup>*</sup>
+          EST. Finance: <sup>$</sup>644/<sub>MO</sub><sup>*</sup>
           <br><br>
           <a href="#" disabled>GET YOUR PRICE</a>
           <br>
@@ -77,14 +80,22 @@
           <br>
           <a href="#" id="specialURL">BUILD LEASE</a>
           <script type="text/javascript">
-$(document).ready(function() {
-   var url = $('h1').html();
-   // url = url.replace(/\s+/g, '-').toLowerCase()+'.html';
-  console.log(url);
-  $('#specialURL').attr('href', 'http://joethemovie.com/lease/index.html?h1=' + encodeURIComponent(url) +"&price=" + encodeURIComponent("32457"));
-  var url2 = window.location.href;
-  console.log(url2);
-});
+            $(document).ready(function() {
+
+              var url = $('h1').html();
+              var priceInfo = parseFloat($('#priceArea').html().replace(',',''));;
+
+              console.log(priceInfo);
+              // url = url.replace(/\s+/g, '-').toLowerCase()+'.html';
+
+
+              console.log(url);
+            $('#specialURL').attr('href', 'http://joethemovie.com/mockpage/index.html?h1=' + encodeURIComponent(url) +"&price=" + encodeURIComponent(priceInfo));
+
+            var url2 = window.location.href;
+              console.log(url2);
+
+          });
           </script>
         </p>
         <p>
