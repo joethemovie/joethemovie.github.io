@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 var url2 = window.location.search;
               console.log(url2);
-var pricing = url2.substr(-1, 5);
+var pricing = url2.substr(-5, 5);
               console.log(pricing + " this is a price");
 var xc90_t5_fwd_momentum_residual = "Select Months";
 var xc90_t5_fwd_momentum_mf = "Select Months";
