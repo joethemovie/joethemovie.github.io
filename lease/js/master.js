@@ -4,7 +4,10 @@ $(document).ready(function(){
 // residual lease end value
 
 
-
+var url2 = window.location.href;
+              console.log(url2);
+var pricing = url2.substr(1, -5);
+              console.log(pricing + " this is a price");
 var xc90_t5_fwd_momentum_residual = "Select Months";
 var xc90_t5_fwd_momentum_mf = "Select Months";
 var miles = "Select Miles Per Year";
