@@ -18,6 +18,7 @@ html {
 body {
   margin: 0;
   width: 100%;
+  background-color: #b4b4b4;
   background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/blackorchid.png");
   background-repeat: repeat;
   color: #000000;
