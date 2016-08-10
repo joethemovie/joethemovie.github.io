@@ -5,32 +5,36 @@ $(document).ready(function(){
 
 
 var url2 = window.location.search;
-              console.log(url2);
+              console.log("captured URL: " + url2);
 var pricing = url2.substr(-5, 5);
-              console.log(pricing + " this is a price");
+              console.log("msrp: " + pricing);
+
+$('#msrp').val(pricing);
+
+
 var xc90_t5_fwd_momentum_residual = "Select Months";
 var xc90_t5_fwd_momentum_mf = "Select Months";
 var miles = "Select Miles Per Year";
 
 $('#tenK').click(function(){
   miles = 10000;
-  console.log(miles);
+  console.log("mileage: " + miles);
 });
 $('#twelveK').click(function(){
   miles = 12000;
-  console.log(miles);
+  console.log("mileage: " + miles);
 });
 $('#fifteenK').click(function(){
   miles = 15000;
-  console.log(miles);
+  console.log("mileage: " + miles);
 });
 $('#eighteenK').click(function(){
   miles = 18000;
-  console.log(miles);
+  console.log("mileage: " + miles);
 });
 $('#twentyK').click(function(){
   miles = 20000;
-  console.log(miles);
+  console.log("mileage: " + miles);
 });
 //   // enter/return search submission functionality
 $(document).mouseup(function(e){
