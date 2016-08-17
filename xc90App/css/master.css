@@ -1,5 +1,5 @@
 .tableContainer {
-  position: absolute; }
+  position: static; }
 
 .headingBar {
   background-color: rgba(20, 27, 31, 0.9);
@@ -16,7 +16,7 @@
 .headingSection {
   background-color: #141b1f;
   width: 940px;
-  height: 320px;
+  height: 305px;
   background-image: url("http://joethemovie.com/xc90App/inc/top_content_bar_clouds.png");
   background-repeat: no-repeat;
   background-position: top;
