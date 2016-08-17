@@ -1,3 +1,6 @@
+.tableContainer {
+  position: absolute; }
+
 .headingBar {
   background-color: rgba(20, 27, 31, 0.9);
   text-shadow: 0px 3px 3px #000000;
@@ -13,7 +16,7 @@
 .headingSection {
   background-color: #141b1f;
   width: 940px;
-  height: 200px;
+  height: 320px;
   background-image: url("http://joethemovie.com/xc90App/inc/top_content_bar_clouds.png");
   background-repeat: no-repeat;
   background-position: top;
@@ -127,7 +130,8 @@ h3 {
 .xc90Image {
   float: left; }
   .xc90Image img {
-    width: 200px; }
+    width: 400px;
+    position: absolute; }
 
 .competitionImages {
   float: right; }
