@@ -1,29 +1,48 @@
+.headingSection {
+  background-color: #141b1f;
+  width: 940px;
+  height: 710px;
+  background-image: url("http://joethemovie.com/xc90App/inc/top_content_bar_clouds.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 940px;
+  background-position: 0 180px; }
+
 .appContainer {
   background-color: #141b1f;
-  padding: 20px 0;
   width: 940px;
-  height: 700px;
-  background-image: url("http://assets.volvocars.com/us/~/media/images/galleries/new-cars/new-xc90/gallery/gallery-module-1/gallery1_vcc08281.jpg?w=1600");
+  height: 710px;
+  background-image: url("http://joethemovie.com/xc90App/inc/xc90_comparison_bottom.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 940px;
-  background-position: 0 180px; }
+  background-position: 0 180px;
+  margin: 0; }
 
 .xc90 {
   background-color: #00649d;
   margin: 10px 0;
   height: 45px; }
 
+.featureSection {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #a4d5f1;
+  text-align: center;
+  width: 200px;
+  vertical-align: middle; }
+
 .xc90Button {
   padding: 10px 0;
-  margin: px 0;
   width: 300px;
   font-size: 18px;
   background-color: #911a1a;
   color: #fafafa;
-  font-weight: 600;
+  font-weight: 500;
   border: 0;
-  border-radius: 0 5px 5px 0; }
+  border-radius: 0 5px 5px 0;
+  display: inline-block; }
 
 .xc90Button:hover {
   background-color: #771414;
@@ -39,4 +58,49 @@
 
 h1 {
   font-weight: 700;
+  color: #ffffff; }
+
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fafafa; }
+
+.comparisonCar {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 18px;
+  background-color: #fcb515;
+  color: #000000;
+  text-align: center;
+  width: 432px;
+  vertical-align: middle;
+  height: 45px;
+  padding: 10px 0 0 0;
+  border-radius: 5px 0 0 5px; }
+
+.importantContent {
+  font-weight: 700; }
+
+.bottomLeftContent {
+  padding: 80px 0 0 90px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow: 1px 2px 2px #000000;
+  font-style: italic;
+  float: left; }
+
+.bottomRightContent {
+  float: right;
+  padding: 80px 40px 0 0px; }
+
+.infoButton {
+  border-radius: 0;
+  background-color: #033057;
+  color: #fafafa;
+  font-size: 18px;
+  font-style: normal; }
+
+.infoButton:hover {
+  background-color: #042440;
   color: #ffffff; }

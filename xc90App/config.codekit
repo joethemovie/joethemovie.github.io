@@ -45,6 +45,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/inc\/top_content_bar_clouds.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03424e+06,
+		"inputAbbreviatedPath": "\/inc\/top_content_bar_clouds.png",
+		"outputAbbreviatedPath": "\/inc\/top_content_bar_clouds.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/inc\/xc90_comparison_bottom.png": {
 		"fileType": 32768,
 		"ignore": 0,
