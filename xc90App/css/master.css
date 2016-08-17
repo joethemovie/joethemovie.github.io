@@ -126,6 +126,8 @@ h3 {
 
 .xc90Image {
   float: left; }
+  .xc90Image img {
+    width: 200px; }
 
 .competitionImages {
   float: right; }
