@@ -45,6 +45,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/inc\/fillerCar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44193,
+		"inputAbbreviatedPath": "\/inc\/fillerCar.png",
+		"outputAbbreviatedPath": "\/inc\/fillerCar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/inc\/top_content_bar_clouds.png": {
 		"fileType": 32768,
 		"ignore": 0,

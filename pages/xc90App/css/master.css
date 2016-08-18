@@ -1,12 +1,17 @@
 .tableContainer {
   position: static; }
+  .tableContainer h3 {
+    position: absolute;
+    margin-top: -30px;
+    font-size: 23px;
+    padding-left: 50px; }
 
 .headingBar {
   background-color: rgba(20, 27, 31, 0.9);
   text-shadow: 0px 3px 3px #000000;
   text-align: center;
-  height: 100px;
-  padding-top: 17px; }
+  height: 70px;
+  padding-top: 4px; }
 
 #RV {
   width: 300px;
@@ -16,11 +21,12 @@
 .headingSection {
   background-color: #141b1f;
   width: 940px;
-  height: 305px;
+  height: 320px;
   background-image: url("http://joethemovie.com/xc90App/inc/top_content_bar_clouds.png");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 940px; }
+  background-size: 940px;
+  padding-top: 20px; }
   .headingSection h3 {
     display: inline;
     font-size: 40px;
@@ -33,12 +39,12 @@
 .appContainer {
   background-color: #141b1f;
   width: 940px;
-  height: 910px;
+  height: 960px;
   background-image: url("http://joethemovie.com/xc90App/inc/xc90_comparison_bottom.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 940px;
-  background-position: 0 380px;
+  background-position: 0 430px;
   margin: 0; }
 
 .xc90 {
@@ -64,12 +70,30 @@
   font-weight: 500;
   border: 0;
   border-radius: 0 5px 5px 0;
-  display: inline-block; }
-
+  display: inline-block;
+  animation: buttonChange 4s;
+  -moz-animation: buttonChange 4s infinite;
+  -webkit-animation: buttonChange 4s infinite; }
+@keyframes buttonChange {
+  0% {
+    background-color: #911a1a; }
+  50% {
+    background-color: #b62c2c; }
+  100% {
+    background-color: #911a1a; } }
 .xc90Button:hover {
   background-color: #771414;
-  color: #fafafa; }
-
+  color: #fafafa;
+  animation: buttonChanger 4s;
+  -moz-animation: buttonChanger 4s infinite;
+  -webkit-animation: buttonChanger 4s infinite; }
+@keyframes buttonChanger {
+  0% {
+    background-color: #771414; }
+  50% {
+    background-color: #c82f2f; }
+  100% {
+    background-color: #771414; } }
 .xc90Button:focus, .xc90Button.focus {
   background-color: #771414;
   color: #fafafa; }
@@ -108,7 +132,7 @@ h3 {
   color: #ffffff;
   font-weight: 400;
   font-size: 18px;
-  text-shadow: 1px 2px 2px #000000;
+  text-shadow: 1px 2px 1px #000000;
   font-style: italic;
   float: left; }
 
@@ -130,8 +154,28 @@ h3 {
 .xc90Image {
   float: left; }
   .xc90Image img {
+    padding-top: 0px;
     width: 400px;
-    position: absolute; }
+    position: absolute;
+    display: inline-block; }
 
 .competitionImages {
-  float: right; }
+  float: right;
+  padding: 25px 0 0 410px; }
+  .competitionImages h4 {
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0px 1px 3px #000000;
+    position: absolute;
+    padding-left: 30px; }
+  .competitionImages img {
+    padding: 60px 0 0 0;
+    display: inline-block;
+    width: 220px;
+    position: static;
+    margin: 0 -30px;
+    transition: padding 0.2s; }
+  .competitionImages img:hover {
+    padding-top: 50px; }
