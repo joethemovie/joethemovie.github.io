@@ -45,6 +45,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/inc\/acuraMDX.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 308546,
+		"inputAbbreviatedPath": "\/inc\/acuraMDX.png",
+		"outputAbbreviatedPath": "\/inc\/acuraMDX.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/inc\/bmwX5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213381,
+		"inputAbbreviatedPath": "\/inc\/bmwX5.png",
+		"outputAbbreviatedPath": "\/inc\/bmwX5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/inc\/fillerCar.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -52,6 +74,17 @@
 		"initialSize": 44193,
 		"inputAbbreviatedPath": "\/inc\/fillerCar.png",
 		"outputAbbreviatedPath": "\/inc\/fillerCar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/inc\/hondaPilot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 277754,
+		"inputAbbreviatedPath": "\/inc\/hondaPilot.png",
+		"outputAbbreviatedPath": "\/inc\/hondaPilot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
