@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-var streamers = ["manvsgame", "a_seagull", "esl_overwatch", "brunofin", "comster404", "seriousgaming","ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "empyreanmauler", "zakivory"];
+var streamers = ["shroud", "manvsgame", "a_seagull", "esl_overwatch", "brunofin", "comster404", "seriousgaming","ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "empyreanmauler", "zakivory"];
 
 // THIS WAS A SEARCH TEST. IMPLEMENTING IN THE FUTURE
 // var streamerInput  = document.getElementById("commentarea");
