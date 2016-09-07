@@ -18,7 +18,7 @@ var streamers = ["shroud", "manvsgame", "a_seagull", "esl_overwatch", "brunofin"
     var name;
     var status = data.stream;
     var game;
-    var check = data.error
+    var check = data.error;
     var missingUser;
 
     if (check == "Not Found" || check == "Unprocessable Entity"){
