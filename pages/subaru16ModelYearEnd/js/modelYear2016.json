@@ -1,9 +1,9 @@
 {
-   "vehicles": [
-      {
-         "car": "status",
-         "stock": "2010-08-02T21:27:44+0000",
-         "price": "2010-08-02T21:27:44+0000"
-      },
-   ]
+  "vehicles" : {
+    "imprezas":{
+      "car": "test",
+      "stock": "stock",
+      "price": "12345"
+    }
+  }
 }
