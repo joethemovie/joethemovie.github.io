@@ -1,16 +1,16 @@
 {
   "outbacks" : {
-    "ob1":{
+    "ob0":{
       "car": "Outback 1",
       "stock": "SUG1191",
       "price": "12345"
     },
-    "ob2":{
+    "ob1":{
       "car": "Outback 2",
       "stock": "SUG1192",
       "price": "22345"
     },
-    "ob3":{
+    "ob2":{
       "car": "Outback 3",
       "stock": "SUG1193",
       "price": "32345"
