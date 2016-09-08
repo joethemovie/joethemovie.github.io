@@ -1,339 +1,34 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <!-- Facebook sharing information tags -->
 
-		<style type="text/css">
-			/* Client-specific Styles */
-			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
-			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
-			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
 
-			/* Reset Styles */
-			body{margin:0; padding:0;}
-			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-			table td{border-collapse:collapse;}
-			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
-
-			/* Template Styles */
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Page
-			* @section background color
-			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
-			* @theme page
-			*/
-			body, #backgroundTable{
-				/*@editable*/ background-color:#FAFAFA;
-			}
-			/**
-			* @tab Page
-			* @section email border
-			* @tip Set the border for your email.
-			*/
-			#templateContainer{
-				/*@editable*/ border: 1px solid #DDDDDD;
-			}
-			/**
-			* @tab Page
-			* @section heading 1
-			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-			* @style heading 1
-			*/
-			h1, .h1{
-				/*@editable*/ color:#202020;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:34px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 2
-			* @tip Set the styling for all second-level headings in your emails.
-			* @style heading 2
-			*/
-			h2, .h2{
-				/*@editable*/ color:#202020;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:30px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 3
-			* @tip Set the styling for all third-level headings in your emails.
-			* @style heading 3
-			*/
-			h3, .h3{
-				/*@editable*/ color:#202020;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:26px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 4
-			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
-			* @style heading 4
-			*/
-			h4, .h4{
-				/*@editable*/ color:#202020;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:22px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Header
-			* @section preheader style
-			* @tip Set the background color for your email's preheader area.
-			* @theme page
-			*/
-			#templatePreheader{
-				/*@editable*/ background-color:#FAFAFA;
-			}
-			/**
-			* @tab Header
-			* @section preheader text
-			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
-			*/
-			.preheaderContent div{
-				/*@editable*/ color:#505050;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:10px;
-				/*@editable*/ line-height:100%;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Header
-			* @section preheader link
-			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
-			*/
-			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Header
-			* @section header style
-			* @tip Set the background color and border for your email's header area.
-			* @theme header
-			*/
-			#templateHeader{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border-bottom:0;
-			}
-			/**
-			* @tab Header
-			* @section header text
-			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
-			*/
-			.headerContent{
-				/*@editable*/ color:#202020;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:34px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				/*@editable*/ padding:0;
-				/*@editable*/ text-align:center;
-				/*@editable*/ vertical-align:middle;
-			}
-			/**
-			* @tab Header
-			* @section header link
-			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
-			*/
-			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-			#headerImage{
-				height:auto;
-				max-width:600px;
-			}
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Body
-			* @section body style
-			* @tip Set the background color for your email's body area.
-			*/
-			#templateContainer, .bodyContent{
-				/*@editable*/ background-color:#FFFFFF;
-			}
-
-			/**
-			* @tab Body
-			* @section body text
-			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
-			* @theme main
-			*/
-			.bodyContent div{
-				/*@editable*/ color:#505050;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:14px;
-				/*@editable*/ line-height:150%;
-				/*@editable*/ text-align:left;
-			}
-
-			/**
-			* @tab Body
-			* @section body link
-			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
-			*/
-			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-
-			.bodyContent img{
-				display:inline;
-				height:auto;
-			}
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
-
-			/**
-			* @tab Footer
-			* @section footer style
-			* @tip Set the background color and top border for your email's footer area.
-			* @theme footer
-			*/
-			#templateFooter{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border-top:0;
-			}
-
-			/**
-			* @tab Footer
-			* @section footer text
-			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
-			* @theme footer
-			*/
-			.footerContent div{
-				/*@editable*/ color:#707070;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:12px;
-				/*@editable*/ line-height:125%;
-				/*@editable*/ text-align:left;
-			}
-
-			/**
-			* @tab Footer
-			* @section footer link
-			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
-			*/
-			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-
-			.footerContent img{
-				display:inline;
-			}
-
-			/**
-			* @tab Footer
-			* @section social bar style
-			* @tip Set the background color and border for your email's footer social bar.
-			* @theme footer
-			*/
-			#social{
-				/*@editable*/ background-color:#FAFAFA;
-				/*@editable*/ border:0;
-			}
-
-			/**
-			* @tab Footer
-			* @section social bar style
-			* @tip Set the background color and border for your email's footer social bar.
-			*/
-			#social div{
-				/*@editable*/ text-align:center;
-			}
-
-			/**
-			* @tab Footer
-			* @section utility bar style
-			* @tip Set the background color and border for your email's footer utility bar.
-			* @theme footer
-			*/
-			#utility{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border:0;
-			}
-			/**
-			* @tab Footer
-			* @section utility bar style
-			* @tip Set the background color and border for your email's footer utility bar.
-			*/
-			#utility div{
-				/*@editable*/ text-align:center;
-			}
-
-			#monkeyRewards img{
-				max-width:190px;
-			}
-		</style>
 	</head>
-    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA;width: 100% !important;">
     	<center>
-        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" style="margin: 0;padding: 0;background-color: #FAFAFA;height: 100% !important;width: 100% !important;">
             	<tr>
-                	<td align="center" valign="top">
+                	<td align="center" valign="top" style="border-collapse: collapse;">
                         <!-- // Begin Template Preheader \\ -->
-                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader" style="background-color: #FAFAFA;">
                             <tr>
-                                <td valign="top" class="preheaderContent">
+                                <td valign="top" class="preheaderContent" style="border-collapse: collapse;">
 
                                 	<!-- // Begin Module: Standard Preheader \ -->
                                     <table border="0" cellpadding="10" cellspacing="0" width="100%">
                                     	<tr>
-                                        	<td valign="top">
-                                            	<div mc:edit="std_preheader_content">
-                                                	 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
+                                        	<td valign="top" style="border-collapse: collapse;">
+                                            	<div mc:edit="std_preheader_content" style="color: #505050;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left;">
+                                                	 $2000-$3000 off select Subaru Models!
                                                 </div>
                                             </td>
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-											<td valign="top" width="190">
-                                            	<div mc:edit="std_preheader_links">
-                                                	Is this email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+											<td valign="top" width="190" style="border-collapse: collapse;">
+                                            	<div mc:edit="std_preheader_links" style="color: #505050;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left;">
+
                                                 </div>
                                             </td>
 											<!-- *|END:IF|* -->
@@ -345,16 +40,16 @@
                             </tr>
                         </table>
                         <!-- // End Template Preheader \\ -->
-                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border: 1px solid #DDDDDD;background-color: #FFFFFF;">
                         	<tr>
-                            	<td align="center" valign="top">
+                            	<td align="center" valign="top" style="border-collapse: collapse;">
                                     <!-- // Begin Template Header \\ -->
-                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader" style="background-color: #FFFFFF;border-bottom: 0;">
                                         <tr>
-                                            <td class="headerContent">
+                                            <td class="headerContent" style="border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;">
 
                                             	<!-- // Begin Module: Standard Header Image \\ -->
-                                            	<img src="http://joethemovie.com/images/theChiefGif.gif" style="width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            	<img src="http://joethemovie.com/images/theChiefGif.gif" style="width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
                                             	<!-- // End Module: Standard Header Image \\ -->
 
                                             </td>
@@ -364,25 +59,21 @@
                                 </td>
                             </tr>
                         	<tr>
-                            	<td align="center" valign="top">
+                            	<td align="center" valign="top" style="border-collapse: collapse;">
                                     <!-- // Begin Template Body \\ -->
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
                                     	<tr>
-                                            <td valign="top" class="bodyContent">
+                                            <td valign="top" class="bodyContent" style="border-collapse: collapse;background-color: #FFFFFF;">
 
                                                 <!-- // Begin Module: Standard Content \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%" style="background-color:#b6b6b6;">
                                                     <tr>
-                                                        <td valign="top">
-                                                            <div mc:edit="std_content00">
-                                                                <h1 class="h1">Heading 1</h1>
-                                                                <h2 class="h2">Heading 2</h2>
-                                                                <h3 class="h3">Heading 3</h3>
-                                                                <h4 class="h4">Heading 4</h4>
-                                                                <strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
-                                                                <br />
-                                                                <br />
-                                                                After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
+                                                        <td valign="top" style="border-collapse: collapse;">
+                                                            <div mc:edit="std_content00" style="color: #000000;font-family: Arial;font-size: 14px;line-height: 150%;text-align: center;">
+
+                                                                <h1 class="h1" style="color: #202020;display: block;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: center;">Howdy From Ramsey Subaru!</h1>
+<br>                                                  <span style="font-size:20px;text-align:center;">Take advantage of this fantastic offer from Ramsey Subaru. <br>Available from now until September 30th:</span>
+                                                                <br><br>
                                                             </div>
 														</td>
                                                     </tr>
@@ -391,10 +82,13 @@
 
                                                 <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
                                                       <tr>
-                                                          <td class="headerContent">
+                                                          <td class="headerContent" style="border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;">
 
                                                           	<!-- // Begin Module: Standard Header Image \\ -->
-                                                          	<img src="http://joethemovie.com/images/cheif1.png" style="width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                                          	<img src="http://joethemovie.com/images/cheif1.png" style="width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
+                                                            <p style="font-size:18px;">
+                                                              Take $3,000 off all in-stock New 2016/2017 <br>Foresters, Legacys and Outbacks.
+                                                            </p>
                                                           	<!-- // End Module: Standard Header Image \\ -->
 
                                                           </td>
@@ -403,15 +97,46 @@
 
                                                   <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
                                                         <tr>
-                                                            <td class="headerContent">
+                                                            <td class="headerContent" style="border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;">
 
                                                             	<!-- // Begin Module: Standard Header Image \\ -->
-                                                            	<img src="http://joethemovie.com/images/chief2.png" style="width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                                            	<img src="http://joethemovie.com/images/chief2.png" style="width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
+<br><br>
+<p style="font-size:16px; width:550px;margin: 0 auto;">
+                                                              Take $2,000 off all in-stock New 2016/2017 Imprezas and Crosstreks. Come in and test drive the Subaru you've been looking for.
+</p>
+<br>
                                                             	<!-- // End Module: Standard Header Image \\ -->
 
                                                             </td>
                                                         </tr>
                                                     </table>
+
+                                                    <!-- // Begin Module: Left Image with Content \\ -->
+                                               <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="siwc_600" mc:variant="content with left image">
+                                                   <tr>
+                                                       <td align="center" valign="top" style="border-collapse: collapse;">
+                                                           <img src="http://pictures.dealer.com/ddc/resize/250x/quality/72/sharpen/1/ddc/r/ramseysubaruramseysoa/1793/de311009994b88be56cff815939923bbx.jpg" style="width: 250px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" mc:label="image" mc:edit="liwc600_image00">
+                                                       </td>
+                                                       <td valign="top" style="border-collapse: collapse;">
+                                                           <div mc:edit="liwc600_content00" style="color: #000000;font-family: Arial;font-size: 14px;line-height: 150%;text-align: center;">
+                                                            <h3 class="h3" style="color: #202020;display: block;font-family: Arial;font-size: 26px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;">Who is The Chief?</h3>
+                                                              <h4 class="h4" style="color: #202020;display: block;font-family: Arial;font-size: 16px;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;">Our very own <strong>Robert Wood.</strong> <br></h4>
+<p style="text-align:left;">
+  Past Rotarian President and current supporter of multiple non-profit and philanthropic causes. Mr. Wood is a hard working, supportive and knowledgable Jack-Of-All-Trades here at Ramsey Subaru. He manages our E-Commerce department and strives to deliver the most informative and beneficial customer experience possible.
+</p>
+
+                                                           </div>
+                                                       </td>
+                                                   </tr>
+                                               </table>
+<p style="font-family:arial;text-align:center;font-size:16px;padding:20px;">
+  Give us a <a href="tel:2013270070" style="color:#397ab8;">call</a> or <a href="http://ramseysubaru.net/" style="color:#397ab8;">click</a> today and let The Chief and the rest of our trained sales staff help you take advantage of this offer.
+</p>
+                                               <p style="font-family:arial;text-align:center;font-size:20px;">
+                                                 Be sure to let us know The Chief sent you!
+                                               </p>
+                                        <!-- // End Module: Left Image with Content \\ -->
 
                                             </td>
                                         </tr>
@@ -420,14 +145,19 @@
                                 </td>
                             </tr>
                         	<tr>
-                            	<td align="center" valign="top">
+                            	<td align="center" valign="top" style="border-collapse: collapse;">
                                     <!-- // Begin Template Footer \\ -->
-                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter" style="background-color: #FFFFFF;border-top: 0;">
                                     	<tr>
-                                        	<td valign="top" class="footerContent">
+                                        	<td valign="top" class="footerContent" style="border-collapse: collapse;">
 
                                                 <!-- // Begin Module: Standard Footer \\ -->
-
+                                                <p style="text-align:center;font-family:arial;">
+                                                  <a href="http://ramseysubaru.net/" style="color:#397ab8;text-decoration: underline;">RamseySubaru.Net</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="tel:2013270070" style="color:#397ab8;text-decoration: underline;">201.327.0070</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.ramseysubaru.net/dealership/directions.htm" style="color:#397ab8;text-decoration: underline;">905 Rt17s Ramsey, NJ</a>
+                                                </p>
+                                                <p style="font-family:arial;text-align:center;font-size:10px; padding: 20px;">
+                                                Offer Valid until 9/30/16. All in-bound vehicles are to be discounted at the Manager's discretion. May not be combined with any other offers. Not responsible for typographical errors,
+                                                </p>
                                                 <!-- // End Module: Standard Footer \\ -->
 
                                             </td>
@@ -437,7 +167,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <br />
+                        <br>
                     </td>
                 </tr>
             </table>
