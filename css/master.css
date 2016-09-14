@@ -288,10 +288,11 @@ footer a:hover {
 		height: 100%;
 	}
 	#webContent {
-		width: 100%;
-		padding: 5%;
+		width: 80%;
+		padding: 30px 0;
 		margin: auto;
 	}
+
 	.aboutContent {
 		color: #ffffff;
 		padding: 20% 0%;
@@ -300,16 +301,17 @@ footer a:hover {
 	.aboutContent a{
 		color: #ffffff;
 	}
-	#portfolioMobile li{
-		display: inline;
-		font-size: 16px;
-		list-style: none;
+	#portfolioMobile li {
+		display: inline-block;
+		padding: 5px;
 	}
 	.portMock {
 		display: block;
+		font-size: 20px;
 	}
+
 	#portfolioMobile button {
-		font-size: 18px;
+		font-size: 25px;
 		list-style: none;
 		padding: 0;
 	}
@@ -351,9 +353,26 @@ footer a:hover {
 		margin: auto auto;
 		padding: 10% 0 0 0;
 	}
+	#portfolioMobile {
+		text-align: right;
+	}
+	#portfolioMobile li {
+		display: block;
+		padding: 5px;
+	}
 	header ul{
 		display: block;
 		text-align: center;
 	}
-
+	.mobileBreak{
+		display: none;
+	}
+	#webContent {
+		width: 80%;
+		padding: 20px 0;
+		margin: auto;
+	}
+	.portMock{
+		font-size: 18px;
+	}
 }
