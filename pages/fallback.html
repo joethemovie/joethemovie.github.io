@@ -1,346 +1,32 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <!-- Facebook sharing information tags -->
 
-		<style type="text/css">
-			/* Client-specific Styles */
-			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
-			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
-			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
-
-			/* Reset Styles */
-			body{margin:0; padding:0;}
-			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-			table td{border-collapse:collapse;}
-			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
-
-			/* Template Styles */
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Page
-			* @section background color
-			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
-			* @theme page
-			*/
-			body, #backgroundTable{
-				/*@editable*/ background-color:#FAFAFA;
-			}
-			/**
-			* @tab Page
-			* @section email border
-			* @tip Set the border for your email.
-			*/
-			#templateContainer{
-				/*@editable*/ border: 1px solid #DDDDDD;
-			}
-			/**
-			* @tab Page
-			* @section heading 1
-			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
-			* @style heading 1
-			*/
-			h1, .h1{
-				/*@editable*/ color:#ffffff;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:34px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 2
-			* @tip Set the styling for all second-level headings in your emails.
-			* @style heading 2
-			*/
-			h2, .h2{
-				/*@editable*/ color:#ffffff;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:29px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:center;
-			}
-			/**
-			* @tab Page
-			* @section heading 3
-			* @tip Set the styling for all third-level headings in your emails.
-			* @style heading 3
-			*/
-			h3, .h3{
-				/*@editable*/ color:#ffffff;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:26px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Page
-			* @section heading 4
-			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
-			* @style heading 4
-			*/
-			h4, .h4{
-				/*@editable*/ color:#ffffff;
-				display:block;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:22px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				/*@editable*/ text-align:left;
-			}
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Header
-			* @section preheader style
-			* @tip Set the background color for your email's preheader area.
-			* @theme page
-			*/
-			#templatePreheader{
-				/*@editable*/ background-color:#FAFAFA;
-			}
-			/**
-			* @tab Header
-			* @section preheader text
-			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
-			*/
-			.preheaderContent div{
-				/*@editable*/ color:#505050;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:10px;
-				/*@editable*/ line-height:100%;
-				/*@editable*/ text-align:left;
-			}
-			/**
-			* @tab Header
-			* @section preheader link
-			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
-			*/
-			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Header
-			* @section header style
-			* @tip Set the background color and border for your email's header area.
-			* @theme header
-			*/
-			#templateHeader{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border-bottom:0;
-			}
-			/**
-			* @tab Header
-			* @section header text
-			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
-			*/
-			.headerContent{
-			  background-color: #ffffff;
-				/*@editable*/ color:#ffffff;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:34px;
-				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
-				/*@editable*/ padding:0;
-				/*@editable*/ text-align:center;
-				/*@editable*/ vertical-align:middle;
-			}
-			/**
-			* @tab Header
-			* @section header link
-			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
-			*/
-			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-			#headerImage{
-				height:auto;
-				max-width:600px;
-			}
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
-			/**
-			* @tab Body
-			* @section body style
-			* @tip Set the background color for your email's body area.
-			*/
-			#templateContainer, .bodyContent{
-				/*@editable*/ background-color:#082b28;
-			}
-
-			/**
-			* @tab Body
-			* @section body text
-			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
-			* @theme main
-			*/
-			.bodyContent div{
-				/*@editable*/ color:#fafafa;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:14px;
-				/*@editable*/ line-height:150%;
-				/*@editable*/ text-align:left;
-			}
-
-			/**
-			* @tab Body
-			* @section body link
-			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
-			*/
-			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#4082c3;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-
-			.bodyContent img{
-				display:inline;
-				height:auto;
-			}
-
-			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
-
-			/**
-			* @tab Footer
-			* @section footer style
-			* @tip Set the background color and top border for your email's footer area.
-			* @theme footer
-			*/
-			#templateFooter{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border-top:0;
-			}
-
-			/**
-			* @tab Footer
-			* @section footer text
-			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
-			* @theme footer
-			*/
-			.footerContent div{
-				/*@editable*/ color:#707070;
-				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:12px;
-				/*@editable*/ line-height:125%;
-				/*@editable*/ text-align:left;
-			}
-
-			/**
-			* @tab Footer
-			* @section footer link
-			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
-			*/
-			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#4082c3;
-				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
-			}
-
-			.footerContent img{
-				display:inline;
-			}
-
-			/**
-			* @tab Footer
-			* @section social bar style
-			* @tip Set the background color and border for your email's footer social bar.
-			* @theme footer
-			*/
-			#social{
-				/*@editable*/ background-color:#FAFAFA;
-				/*@editable*/ border:0;
-			}
-
-			/**
-			* @tab Footer
-			* @section social bar style
-			* @tip Set the background color and border for your email's footer social bar.
-			*/
-			#social div{
-				/*@editable*/ text-align:center;
-			}
-
-			/**
-			* @tab Footer
-			* @section utility bar style
-			* @tip Set the background color and border for your email's footer utility bar.
-			* @theme footer
-			*/
-			#utility{
-				/*@editable*/ background-color:#FFFFFF;
-				/*@editable*/ border:0;
-			}
-			/**
-			* @tab Footer
-			* @section utility bar style
-			* @tip Set the background color and border for your email's footer utility bar.
-			*/
-			#utility div{
-				/*@editable*/ text-align:center;
-			}
-
-			#monkeyRewards img{
-				max-width:190px;
-			}
-      .volvoLogo {
-        padding: 20px;
-      }
-      .colorArea {
-        background-color: #ffffff;
-        color: #31343b;
-      }
-		</style>
 	</head>
-    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA;width: 100% !important;">
     	<center>
-        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" style="margin: 0;padding: 0;background-color: #FAFAFA;height: 100% !important;width: 100% !important;">
             	<tr>
-                	<td align="center" valign="top">
+                	<td align="center" valign="top" style="border-collapse: collapse;">
                         <!-- // Begin Template Preheader \\ -->
-                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader" style="background-color: #FAFAFA;">
                             <tr>
-                                <td valign="top" class="preheaderContent">
+                                <td valign="top" class="preheaderContent" style="border-collapse: collapse;">
 
                                 	<!-- // Begin Module: Standard Preheader \ -->
                                     <table border="0" cellpadding="10" cellspacing="0" width="100%">
                                     	<tr>
-                                        	<td valign="top">
-                                            	<div mc:edit="std_preheader_content">
-                                                	 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
+                                        	<td valign="top" style="border-collapse: collapse;">
+                                            	<div mc:edit="std_preheader_content" style="color: #505050;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left;">
+                                                	The Best Deal of the Season
                                                 </div>
                                             </td>
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-											<td valign="top" width="190">
-                                            	<div mc:edit="std_preheader_links">
+											<td valign="top" width="190" style="border-collapse: collapse;">
+                                            	<div mc:edit="std_preheader_links" style="color: #505050;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left;">
 
                                                 </div>
                                             </td>
@@ -353,18 +39,18 @@
                             </tr>
                         </table>
                         <!-- // End Template Preheader \\ -->
-                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border: 1px solid #DDDDDD;background-color: #082b28;">
                         	<tr>
-                            	<td align="center" valign="top">
+                            	<td align="center" valign="top" style="border-collapse: collapse;">
                                     <!-- // Begin Template Header \\ -->
-                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader" style="background-color: #FFFFFF;border-bottom: 0;">
                                         <tr>
-                                            <td class="headerContent">
+                                            <td class="headerContent" style="border-collapse: collapse;background-color: #ffffff;color: #ffffff;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;">
 
                                             	<!-- // Begin Module: Standard Header Image \\ -->
-                                              <img src="http://www.volvocars.com/static/images/volvo-logo-scaled.png" style="width:60px;" id="headerImage campaign-icon" class="volvoLogo" />
+                                              <img src="http://www.volvocars.com/static/images/volvo-logo-scaled.png" style="width: 60px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;padding: 20px;" id="headerImage campaign-icon" class="volvoLogo">
                                               <br>
-                                            	<img src="http://joethemovie.com/images/volvoFalBackHeader.png" style="width:600px;" id="headerImage campaign-icon"/>
+                                            	<img src="http://joethemovie.com/images/volvoFalBackHeader.png" style="width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" id="headerImage campaign-icon">
                                             	<!-- // End Module: Standard Header Image \\ -->
 
                                             </td>
@@ -374,23 +60,23 @@
                                 </td>
                             </tr>
                         	<tr>
-                            	<td align="center" valign="top">
+                            	<td align="center" valign="top" style="border-collapse: collapse;">
                                     <!-- // Begin Template Body \\ -->
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
                                     	<tr>
-                                            <td valign="top" class="bodyContent">
+                                            <td valign="top" class="bodyContent" style="border-collapse: collapse;background-color: #082b28;">
 
                                                 <!-- // Begin Module: Standard Content \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%" align="center">
                                                     <tr>
-                                                        <td valign="top">
-                                                            <div mc:edit="std_content00">
-                                                                <h2 class="h2"> The Biggest Kick Off to the Fall Season</h2>
+                                                        <td valign="top" style="border-collapse: collapse;">
+                                                            <div mc:edit="std_content00" style="color: #fafafa;font-family: Arial;font-size: 14px;line-height: 150%;text-align: left;">
+                                                                <h2 class="h2" style="color: #ffffff;display: block;font-family: Arial;font-size: 29px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: center;"> The Biggest Kick Off to the Fall Season</h2>
 
                                                                 <p style="font-size: 22px; text-align:center;line-height:1.3;">
                                                                   <strong>For This Weekend Only</strong> Take $750 off of your  <br> purchase of a New Vehicle at Ramsey Volvo.
                                                                   <br>
-                                                                  <img src="http://joethemovie.com/images/newCoupon.png" style="width:520px;margin: 0 auto;" id="headerImage campaign-icon" class="volvoLogo" />
+                                                                  <img src="http://joethemovie.com/images/newCoupon.png" style="width: 520px;margin: 0 auto;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;padding: 20px;display: inline;" id="headerImage campaign-icon" class="volvoLogo">
                                                                 </p>
 
 
@@ -402,25 +88,25 @@
 
 
                                                 <!-- // End Module: Left Image with Content \\ -->
-                                                  <img src="http://joethemovie.com/images/colorChange.png" style="width:600px;" id="headerImage campaign-icon"/>
+                                                  <img src="http://joethemovie.com/images/colorChange.png" style="width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" id="headerImage campaign-icon">
 
                                                   <br>
 
 
-                                                <div class="colorArea" >
-                                                  <h1 style="color:#000000;text-align:center;padding:20px 0;">Current Ramsey Volvo Offers</h1>
+                                                <div class="colorArea" style="background-color: #ffffff;color: #fafafa;font-family: Arial;font-size: 14px;line-height: 150%;text-align: left;">
+                                                  <h1 style="color: #000000;text-align: center;padding: 20px 0;display: block;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;">Current Ramsey Volvo Offers</h1>
                                                   <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                       <tr>
-                                                          <td align="center" valign="top">
-                                                              <a href="http://www.volvocarsramsey.com/ramsey-volvo-program-cars.htm"><img src="http://joethemovie.com/images/volvoV60.png" style="max-width:250px;" mc:label="image" mc:edit="liwc600_image00" /></a>
+                                                          <td align="center" valign="top" style="border-collapse: collapse;">
+                                                              <a href="http://www.volvocarsramsey.com/ramsey-volvo-program-cars.htm" style="color: #4082c3;font-weight: normal;text-decoration: underline;"><img src="http://joethemovie.com/images/volvoV60.png" style="max-width: 250px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;" mc:label="image" mc:edit="liwc600_image00"></a>
                                                           </td>
-                                                          <td valign="top">
-                                                              <div style="color:#31343b;">
-                                                                <h3 style="color:#000000"><strong>The Ramsey Volvo</strong> Car Buying Program</h3>
+                                                          <td valign="top" style="border-collapse: collapse;">
+                                                              <div style="color: #31343b;font-family: Arial;font-size: 14px;line-height: 150%;text-align: left;">
+                                                                <h3 style="color: #000000;display: block;font-family: Arial;font-size: 26px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;"><strong>The Ramsey Volvo</strong> Car Buying Program</h3>
                                                                  <strong style="font-size:18px;">The Best Deal of the Season</strong> <br>
                                                                  <br>
                                                                   Experience the V60; a beautifully balanced combination of thrilling performance, intelligent luxury and amazing versatility. <br>
-                                                                  Check out the <a href="http://www.volvocarsramsey.com/ramsey-volvo-program-cars.htm">2016 Volvo V60</a>.
+                                                                  Check out the <a href="http://www.volvocarsramsey.com/ramsey-volvo-program-cars.htm" style="color: #4082c3;font-weight: normal;text-decoration: underline;">2016 Volvo V60</a>.
                                                               </div>
                                                           </td>
                                                       </tr>
@@ -435,15 +121,15 @@
                                 </td>
                             </tr>
                         	<tr>
-                            	<td align="center" valign="top">
+                            	<td align="center" valign="top" style="border-collapse: collapse;">
                                     <!-- // Begin Template Footer \\ -->
-                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter" style="background-color: #FFFFFF;border-top: 0;">
                                     	<tr>
-                                        	<td valign="top" class="footerContent">
+                                        	<td valign="top" class="footerContent" style="border-collapse: collapse;">
 
                                             <table border="0" cellpadding="0" cellspacing="0" width="100%" id="footerContainer" style="background:#ffffff;margin:20px 0;text-align:center;">
                                               <tr>
-                                                  <td align="center" valign="top" style="padding: 20px 10px;font-family:Helvetica, sans serif;">
+                                                  <td align="center" valign="top" style="padding: 20px 10px;font-family: Helvetica, sans serif;border-collapse: collapse;">
                                                     <a href="http://www.volvocarsramsey.com/" style="color:033057">VolvoCarsRamsey.Com</a> | <a href="http://www.volvocarsramsey.com/dealership/directions.htm" style="color:033057">585 Rt 17s Ramsey,	NJ</a> | <a href="tel:8883190377" style="color:033057">888.319.0377</a>
                                                   </td>
                                               </tr>
@@ -456,7 +142,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <br />
+                        <br>
                     </td>
                 </tr>
             </table>
