@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
   color: #ffffff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
 h1 {
   color: white;
@@ -17,7 +18,7 @@ h1 {
   margin: auto;
 }
 .contentContainer {
-  padding: 10px 20px 30px 20px;
+  padding: 10px 30px 30px 30px;
   background-color: rgba(0, 0, 0, 0.2);
   width: 50%;
   margin: 0px;
@@ -30,15 +31,4 @@ h1 {
 }
 .links a:hover {
   background-color: #042644;
-}
-.box {
-  display: inline-block;
-  list-style: none;
-  margin: auto;
-}
-.box img {
-  width: 110px;
-}
-p {
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
 }
