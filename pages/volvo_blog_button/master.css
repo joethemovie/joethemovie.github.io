@@ -473,6 +473,8 @@ p {
     color: #000000;
   }
   #volvoContainer {
+    background-image: none;
+    background-size: 0;
     width: 330px;
     height: 650px;
     background-color: #ffffff;
@@ -481,7 +483,7 @@ p {
   .contentContainer {
     height: 650px;
     padding: 0px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
     width: 100%;
     margin: auto;
   }
@@ -498,7 +500,8 @@ p {
   }
   #headingP {
     padding: 0 10px;
-    text-align: center;
+    text-align: left;
+    width: 85%;
   }
   #launchHeading {
     padding-top: 30px;
@@ -515,6 +518,6 @@ p {
   }
   .wrap{
     width: 90%;
-    margin: 0 -15px;;
+    margin: 0 -30px;;
   }
 }
