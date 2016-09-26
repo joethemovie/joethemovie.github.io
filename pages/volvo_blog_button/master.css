@@ -49,7 +49,7 @@ p {
 .links p{
   padding-top: 10px;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #volvoContainer {
     background-image: url("http://joethemovie.com/pages/volvo_blog_button/s90BG.jpg");
     background-size: 1000px;
