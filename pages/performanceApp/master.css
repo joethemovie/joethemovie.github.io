@@ -1,0 +1,83 @@
+.video1 {
+  height: 150px;
+  border: 2px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+}
+#contentContainer {
+ width:940px;
+ background-color:rgb(55, 57, 65);
+}
+#previewContainer{
+  position:absolute;
+}#buttonsContainer {
+  width: 300px;
+  margin: 0 550px;
+  height: 450px;
+}
+#imageContainer {
+  background-color: #333;
+  width: 550px;
+  height:450px;
+  overflow: hidden;
+}
+@keyframes kenburns {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+      transform: scale3d(1.5, 1.5, 1.5) translate3d(-50px, -20px, 0px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+  }
+}
+#imageContainer img {
+  animation: kenburns 20s infinite;
+}
+.catButton {
+  width:390px;
+  height: 45px;
+  background-color: rgb(118, 124, 140);
+  color:#ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.catButton:hover {
+  background-color: rgb(97, 102, 113);
+}
+#cat1 {
+
+}
+#cat2 {
+
+}
+#cat3 {
+
+}
+#cat4 {
+
+}

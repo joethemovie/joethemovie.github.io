@@ -1,0 +1,22 @@
+$(document).ready(function(){
+  $('.mediaContent').hide();
+  $('.catArea').hide();
+  $('.video1').show();
+
+  $('.cat1').click(function(event){
+    $('.catArea').hide();
+    $('#cat1').show();
+  });
+  $('.cat2').click(function(event){
+    $('.catArea').hide();
+    $('#cat2').show();
+  });
+  $('.cat3').click(function(event){
+    $('.catArea').hide();
+    $('#cat3').show();
+  });
+  $('.cat4').click(function(event){
+    $('.catArea').hide();
+    $('#cat4').show();
+  });
+});
