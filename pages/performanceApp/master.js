@@ -1,9 +1,36 @@
 $(document).ready(function(){
-  
 
+  $('.titleHide').hide();
+  $('.optional').hide();
   $('.mediaContent').hide();
   $('.catArea').hide();
 
+  $('#stiToggle').click(function(event){
+    $('.optional').hide();
+    $('.sti245_1').show();
+    $('.sti245_2').show();
+  });
+  $('.sti245_1').click(function(event){
+    $('.titleHide').hide();
+    $('.sti245_1Title').show();
+  });
+  $('.sti245_2').click(function(event){
+    $('.titleHide').hide();
+    $('.sti245_2Title').show();
+  });
+  $('#wrxToggle').click(function(event){
+    $('.optional').hide();
+    $('.wrx235').show();
+    $('.wrx245').show();
+  });
+  $('.wrx235').click(function(event){
+    $('.titleHide').hide();
+    $('.wrx235Title').show();
+  });
+  $('.wrx245').click(function(event){
+    $('.titleHide').hide();
+    $('.wrx245Title').show();
+  });
   $('#cat1op1').click(function(event){
     $('.mediaContent').hide();
     $('.video1').show();
@@ -27,9 +54,5 @@ $(document).ready(function(){
   $('.cat3').click(function(event){
     $('.catArea').hide();
     $('#cat3').show();
-  });
-  $('.cat4').click(function(event){
-    $('.catArea').hide();
-    $('#cat4').show();
   });
 });

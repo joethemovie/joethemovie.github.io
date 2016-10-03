@@ -1,5 +1,16 @@
+#accHeading {
+  width: 550px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 8888;
+  color: #ffffff;
+  position: absolute;
+  font-family: Helvetica, sans-serif;=
+}
+#accHeading h2 {
+    padding: 0 0 0 10px;
+}
 .couponArea {
-  margin-top: 20px;
+  margin-top: 470px;
   position: absolute;
 }
 #answer {
@@ -67,6 +78,9 @@
 #contentContainer {
  width:940px;
  background-color:rgb(55, 57, 65);
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
 }
 #previewContainer{
   position:absolute;
@@ -122,4 +136,28 @@
 }
 #cat4 {
 
+}
+.subtextHeading {
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: right;
+}
+.menuHeadings {
+  font-size: 18px;
+  font-weight:bold;
+  color: #dddddd
+}
+.menuHeadings:hover {
+  color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+}
+.optional {
+  color: #a4a4a4;
+}
+.optional:hover {
+  color: #ffffff;
+  text-decoration:underline;
+  cursor: pointer;
+  user-select: none;
 }
