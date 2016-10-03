@@ -1,7 +1,20 @@
 $(document).ready(function(){
+  
+
   $('.mediaContent').hide();
   $('.catArea').hide();
-  $('.video1').show();
+
+  $('#cat1op1').click(function(event){
+    $('.mediaContent').hide();
+    $('.video1').show();
+    document.getElementById('videoCont1').play();
+  });
+
+  $('#cat1op2').click(function(event){
+    $('.mediaContent').hide();
+    $('.image1').show();
+    document.getElementById('videoCont1').pause();
+  });
 
   $('.cat1').click(function(event){
     $('.catArea').hide();

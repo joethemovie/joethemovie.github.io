@@ -8,30 +8,27 @@
     <script type="text/javascript" src="master.js"></script>
   </head>
   <body>
-
     <div id="contentContainer">
       <div id="previewContainer">
         <div id="imageContainer">
+
           <img src="http://joethemovie.com/images/testImpreza.png" alt="" class="image1 mediaContent" />
+
           <div class="video1 mediaContent">
-            <div id="video-container">
-            <video autoplay loop class="fillWidth">
-            <source src="http://joethemovie.com/videos/testVid2.mp4" type="video/mp4"/>
-            <source src="http://joethemovie.com/videos/testVid2.ogv" type="video/ogv"/>
-            <source src="http://joethemovie.com/videos/testVid1.webm" type="video/webm"/>
-            Your browser does not support the video tag. I suggest you upgrade your browser.
-            </video>
+            <div id="videoContainer">
+              <video src="http://joethemovie.github.io/video/testVid2.mp4" id="videoCont1"></video>
             </div>
           </div>
+
         </div>
       </div>
       <div id="buttonsContainer">
         <button type="button" name="cat1" class="catButton cat1">Category 1</button>
           <div id="cat1" class="catArea">
             <ul>
-              <li>Option1</li>
-              <li>Option2</li>
-              <li>Option3</li>
+              <li><button type="button" name="cat1op1" id="cat1op1">Option 1 &nbsp;&nbsp;&nbsp; $<span id="price1">1,234.00</span></button> </li>
+              <li><button type="button" name="cat1op2" id="cat1op2">Option 2 &nbsp;&nbsp;&nbsp; $<span id="price2">456.00</span></button></li>
+              <li><button type="button" name="cat1op3" id="cat1op3">Option 3 &nbsp;&nbsp;&nbsp; $<span id="price3">3,454.00</span></button></li>
             </ul>
           </div>
         <button type="button" name="cat2" class="catButton cat2">Category 2</button>
@@ -58,8 +55,35 @@
               <li>Option3</li>
             </ul>
           </div>
+          <!-- coupon code html begin -->
+          <div class="couponArea">
+            <input id="text_a" type="text" />
+            <button onclick="myFunction()" id="couponButton">Coupon Code</button>
+            <br>
+            <p id="answer"></p>
+          </div>
+            <!-- coupon code html end -->
       </div>
     </div>
+    <!-- coupon code js begin -->
+    <script type="text/javascript">
+      function myFunction()
+        {
+        var a=document.getElementById("text_a").value;
 
+        if (a=="SUBARU17")
+          {
+        document.getElementById("price1").innerText= "1,000";
+        document.getElementById("price2").innerText= 400;
+        document.getElementById("price3").innerText= "3,000";
+        document.getElementById("answer").innerHTML="";
+          }
+        else
+          {
+        document.getElementById("answer").innerHTML="Sorry, this is not a coupon Code";
+          }
+        }
+      </script>
+      <!-- coupon code js end -->
   </body>
 </html>

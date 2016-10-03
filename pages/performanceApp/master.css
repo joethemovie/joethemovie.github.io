@@ -1,27 +1,68 @@
-.video1 {
-  height: 150px;
-  border: 2px solid #000;
-  border-right:none;
-  border-left: none;
-  position: relative;
-  padding: 20px;
+.couponArea {
+  margin-top: 20px;
+  position: absolute;
 }
-#video-container {
-	position: absolute;
+#answer {
+  display: inline-block;
+  color: rgb(120, 124, 139);
+  font-family: Helvetica, sans-serif;
+  margin-left: 20px;
 }
-#video-container {
-	top:0%;
-	left:0%;
-	height:100%;
-	width:100%;
-	overflow: hidden;
+#text_a {
+  padding-left: 10px;
+  margin-left: 20px;
+  font-size:18px;
+  width: 100px;
+  height: 36px;
+  border: none;
 }
-video {
-	position:absolute;
-	z-index:0;
+#couponButton {
+  height: 40px;
+  background-color: rgb(74, 136, 228);
+  color: #fafafa;
+  border: none;
+  font-size: 18px;
+  padding: 0 10px;
+  margin: 0;
 }
-video.fillWidth {
-	width: 100%;
+#couponButton:hover {
+  background-color: rgb(61, 115, 195);
+}
+.catArea {
+  color:#fafafa;
+  font-size:14px;
+  font-family: Helvetica, sans-serif;;
+}
+.catArea button {
+  background: none;
+  color: #ffffff;
+  font-size:16px;
+  border: none;
+  width:390px;
+  height: 30px;
+  text-align: left;
+  margin: 0 -40px;;
+  padding: 0 0 0 10px;
+  outline:none !important;
+}
+.catArea button:hover {
+  background: rgb(44, 46, 54);
+  color: #ffffff;
+
+}
+.catArea li {
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: none;
+}
+#videoContainer {
+  width:550px;
+  background:#000000;
+  height: 450px;
+  padding-top: 65px;
+}
+#videoContainer video{
+  width: 100%;
 }
 #contentContainer {
  width:940px;
@@ -65,6 +106,7 @@ video.fillWidth {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 2px;
+  outline:none !important;
 }
 .catButton:hover {
   background-color: rgb(97, 102, 113);
