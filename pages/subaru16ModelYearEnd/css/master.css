@@ -1,0 +1,44 @@
+body{
+  font-family: Helvetica, sans-serif;
+}
+#testUl ul{
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  width: 250px;
+}
+#testUl li{
+  list-style: none;
+}
+.vehicleImage {
+  width: 200px;
+  margin: auto;
+  padding: 5px 0 10px 18px;
+}
+.emailLink {
+  background-color: #20609F;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+.emailLink:hover {
+  background-color: #1a5085;
+}
+.sectionTitle {
+  font-weight: bold;
+  font-size:16px;
+}
+.center {
+  text-align: center;
+}
+.pricing {
+  font-weight: bold;
+}
+.sectionSpacing {
+  padding-top: 10px;
+}
+.pricingSpacing {
+  padding-top: 20px;
+}
