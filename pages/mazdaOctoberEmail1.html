@@ -41,7 +41,7 @@
 			* @style heading 1
 			*/
 			h1, .h1{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#ffffff;
 				display:block;
 				/*@editable*/ font-family:Arial;
 				/*@editable*/ font-size:34px;
@@ -60,7 +60,7 @@
 			* @style heading 2
 			*/
 			h2, .h2{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#ffffff;
 				display:block;
 				/*@editable*/ font-family:Arial;
 				/*@editable*/ font-size:30px;
@@ -79,17 +79,18 @@
 			* @style heading 3
 			*/
 			h3, .h3{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#ffffff;
 				display:block;
 				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:26px;
+				/*@editable*/ font-size:29px;
 				/*@editable*/ font-weight:bold;
-				/*@editable*/ line-height:100%;
+				/*@editable*/ line-height:120%;
 				margin-top:0;
 				margin-right:0;
 				margin-bottom:10px;
 				margin-left:0;
-				/*@editable*/ text-align:left;
+        padding-bottom: 10px;
+				/*@editable*/ text-align:center;
 			}
 			/**
 			* @tab Page
@@ -98,7 +99,7 @@
 			* @style heading 4
 			*/
 			h4, .h4{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#ffffff;
 				display:block;
 				/*@editable*/ font-family:Arial;
 				/*@editable*/ font-size:22px;
@@ -127,7 +128,7 @@
 			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
 			*/
 			.preheaderContent div{
-				/*@editable*/ color:#505050;
+				/*@editable*/ color:#ffffff;
 				/*@editable*/ font-family:Arial;
 				/*@editable*/ font-size:10px;
 				/*@editable*/ line-height:100%;
@@ -151,7 +152,7 @@
 			* @theme header
 			*/
 			#templateHeader{
-				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ background-color:#202020;
 				/*@editable*/ border-bottom:0;
 			}
 			/**
@@ -160,7 +161,7 @@
 			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
 			*/
 			.headerContent{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#ffffff;
 				/*@editable*/ font-family:Arial;
 				/*@editable*/ font-size:34px;
 				/*@editable*/ font-weight:bold;
@@ -175,7 +176,7 @@
 			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
 			*/
 			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#0095FE;
 				/*@editable*/ font-weight:normal;
 				/*@editable*/ text-decoration:underline;
 			}
@@ -190,7 +191,7 @@
 			* @tip Set the background color for your email's body area.
 			*/
 			#templateContainer, .bodyContent{
-				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ background-color:#202020;
 			}
 
 			/**
@@ -200,7 +201,7 @@
 			* @theme main
 			*/
 			.bodyContent div{
-				/*@editable*/ color:#505050;
+				/*@editable*/ color:#fafafa;
 				/*@editable*/ font-family:Arial;
 				/*@editable*/ font-size:14px;
 				/*@editable*/ line-height:150%;
@@ -213,7 +214,7 @@
 			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
 			*/
 			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#0095FE;
 				/*@editable*/ font-weight:normal;
 				/*@editable*/ text-decoration:underline;
 			}
@@ -256,7 +257,7 @@
 			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
 			*/
 			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#0095FE;
 				/*@editable*/ font-weight:normal;
 				/*@editable*/ text-decoration:underline;
 			}
@@ -307,6 +308,20 @@
 			#monkeyRewards img{
 				max-width:190px;
 			}
+      .boldSub {
+        font-size: 45px;
+      }
+      .paragraphButtons {
+        text-align: center;
+        padding: 20px 0 60px 0;
+      }
+      .paragraphButtons a {
+        text-decoration:none;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        background-color: #0095FE;
+        padding: 10px 20px;
+      }
 		</style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -324,14 +339,12 @@
                                     	<tr>
                                         	<td valign="top">
                                             	<div mc:edit="std_preheader_content">
-                                                	 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
+                                                  We have over 250 CX-5's available, up to...
                                                 </div>
                                             </td>
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
 											<td valign="top" width="190">
-                                            	<div mc:edit="std_preheader_links">
-                                                	Is this email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
-                                                </div>
+
                                             </td>
 											<!-- *|END:IF|* -->
                                         </tr>
@@ -351,7 +364,7 @@
                                             <td class="headerContent">
 
                                             	<!-- // Begin Module: Standard Header Image \\ -->
-                                            	<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_600.gif" style="max-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            	<img src="http://joethemovie.com/images/cx5.png" style="width:600px;" />
                                             	<!-- // End Module: Standard Header Image \\ -->
 
                                             </td>
@@ -372,14 +385,10 @@
                                                     <tr>
                                                         <td valign="top">
                                                             <div mc:edit="std_content00">
-                                                                <h1 class="h1">Heading 1</h1>
-                                                                <h2 class="h2">Heading 2</h2>
-                                                                <h3 class="h3">Heading 3</h3>
-                                                                <h4 class="h4">Heading 4</h4>
-                                                                <strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
-                                                                <br />
-                                                                <br />
-                                                                After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
+
+                                                                <h3 class="h3">WE HAVE OVER 250 CX-5’S AVAILABLE <br><span class="boldSub">UP TO $2500* OFF MSRP!</span></h3>
+
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                                             </div>
 														</td>
                                                     </tr>
@@ -390,33 +399,23 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="siwc_600" mc:variant="content with left image">
                                                     <tr>
                                                         <td align="center" valign="top">
-                                                            <img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:250px;" mc:label="image" mc:edit="liwc600_image00" />
+                                                            <img src="http://joethemovie.com/images/cx5RedVehicleImage.png" style="width:250px;padding-top:20px;" mc:label="image" mc:edit="liwc600_image00" />
                                                         </td>
                                                         <td valign="top">
                                                             <div mc:edit="liwc600_content00">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Variable content blocks:</strong> <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">Variable content sections</a> are noted with plus and minus signs so that you can add and subtract content blocks and also a drop-down selector that allows you to choose which type of content block to display.
+ 	                                                           <h4 class="h4">A CLASS OF ITS OWN</h4>
+                                                               The CX-5 comfortably seats five plus your gear with more rear legroom, passenger volume and cargo volume than Kia Sportage and Hyundai Tucson.The Mazda CX-5 comes well equppied with SKYACTIV and Mazda Infotainment technologies. As well as suite of safety features.
+
+
                                                             </div>
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Left Image with Content \\ -->
+<p class="paragraphButtons">
+  <a href="http://www.ramseymazda.com/new-inventory/index.htm?search=&model=Mazda+CX-5&year=2016&gvBodyStyle=SUV">VIEW INVENTORY</a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.ramseymazda.com/showroom/2016/Mazda/Mazda+CX-5/SUV.htm">VEHICLE SHOWROOM</a>
+</p>
 
-                                                <!-- // Begin Module: Right Image with Content \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="siwc_600" mc:variant="content with right image">
-                                                    <tr>
-                                                        <td valign="top">
-                                                            <div mc:edit="riwc600_content00">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Variable content blocks:</strong> <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">Variable content sections</a> are noted with plus and minus signs so that you can add and subtract content blocks and also a drop-down selector that allows you to choose which type of content block to display.
-                                                            </div>
-                                                        </td>
-                                                        <td align="center" valign="top">
-                                                            <img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:250px;" mc:label="image" mc:edit="riwc600_image00" />
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!-- // End Module: Right Image with Content \\ -->
 
                                             </td>
                                         </tr>
