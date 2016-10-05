@@ -5,6 +5,7 @@ $(document).ready(function(){
   $('.mediaContent').hide();
   $('.catArea').hide();
 
+//TIRES MENU BEGIN
   $('#stiToggle').click(function(event){
     $('.optional').hide();
     $('.sti245_1').show();
@@ -31,6 +32,95 @@ $(document).ready(function(){
     $('.titleHide').hide();
     $('.wrx245Title').show();
   });
+
+//TIRES MENU END
+//---------------------------------------
+//ACCESSORIES MENU BEGIN
+  $('#sportExhaust').click(function(event){
+    $('.optional').hide();
+    $('.titleHide').hide();
+    $('.sportExhaustTitle').show();
+  });
+  $('#radarDetector').click(function(event){
+    $('.optional').hide();
+    $('#k40').show();
+    $('#escort').show();
+  });
+  $('#escort').click(function(event){
+    $('#front').show();
+    $('#frontRear').show();
+  });
+  $('#front').click(function(event){
+    $('#front').show();
+    $('#frontRear').show();
+    $('.titleHide').hide();
+    $('.escortFrontTitle').show();
+  });
+  $('#frontRear').click(function(event){
+    $('#front').show();
+    $('#frontRear').show();
+    $('.titleHide').hide();
+    $('.escortFRTitle').show();
+  });
+  $('#k40').click(function(event){
+    $('.optional').hide();
+    $('#k40').show();
+    $('#escort').show();
+    $('.titleHide').hide();
+    $('.k40Title').show();
+  });
+  $('#clearBra').click(function(event){
+    $('.optional').hide();
+    $('#frontHoodBikini').show();
+    $('#wholeFrontEnd').show();
+  });
+  $('#frontHoodBikini').click(function(event){
+    $('.optional').hide();
+    $('#frontHoodBikini').show();
+    $('#wholeFrontEnd').show();
+    $('.titleHide').hide();
+    $('.cbFrontHoodTitle').show();
+  });
+  $('#wholeFrontEnd').click(function(event){
+    $('.optional').hide();
+    $('#frontHoodBikini').show();
+    $('#wholeFrontEnd').show();
+    $('.titleHide').hide();
+    $('.cbWholeFrontTitle').show();
+  });
+  $('#puddleLights').click(function(event){
+    $('.optional').hide();
+    $('.titleHide').hide();
+    $('.puddleLightsTitle').show();
+  });
+  $('#dvr').click(function(event){
+    $('.optional').hide();
+    $('.titleHide').hide();
+    $('.dvrTitle').show();
+  });
+  $('#customLeather').click(function(event){
+    $('.optional').hide();
+    $('#twoToneStitch').show();
+  });
+  $('#twoToneStitch').click(function(event){
+    $('.optional').hide();
+    $('#twoToneStitch').show();
+    $('.titleHide').hide();
+    $('.twoToneStitchTitle').show();
+  });
+  $('#fogLights').click(function(event){
+    $('.optional').hide();
+    $('.titleHide').hide();
+    $('.fogLightsTitle').show();
+  });
+  $('#sts').click(function(event){
+    $('.optional').hide();
+    $('.titleHide').hide();
+    $('.stsTitle').show();
+  });
+
+//ACCESSORIES MENU END
+//---------------------------------------
   $('#cat1op1').click(function(event){
     $('.mediaContent').hide();
     $('.video1').show();

@@ -10,13 +10,28 @@
   <body>
     <div id="contentContainer">
       <div id="previewContainer">
-        <div id="accHeading">
+    <div id="accHeading">
 
-          <h2 class="titleHide wrx235Title">General Altimax Artic  &nbsp;&nbsp;&nbsp; <span class="subtextHeading">235/45-17</span></h2>
-          <h2 class="titleHide wrx245Title">Bridgestone Blizzak WS80 &nbsp;&nbsp;&nbsp; <span class="subtextHeading">245/40-18</span></h2>
-          <h2 class="titleHide sti245_1Title">Bridgestone Blizzak WS80 &nbsp;&nbsp;&nbsp; <span class="subtextHeading">245/40-18</span></h2>
-          <h2 class="titleHide sti245_2Title">Continental WinterContactSI  &nbsp;&nbsp;&nbsp; <span class="subtextHeading">245/40-18</span></h2>
-        </div>
+      <h2 class="titleHide wrx235Title">General Altimax Artic  &nbsp;&nbsp;&nbsp; <span class="subtextHeading">235/45-17</span></h2>
+      <h2 class="titleHide wrx245Title">Bridgestone Blizzak WS80 &nbsp;&nbsp;&nbsp; <span class="subtextHeading">245/40-18</span></h2>
+      <h2 class="titleHide sti245_1Title">Bridgestone Blizzak WS80 &nbsp;&nbsp;&nbsp; <span class="subtextHeading">245/40-18</span></h2>
+      <h2 class="titleHide sti245_2Title">Continental WinterContactSI  &nbsp;&nbsp;&nbsp; <span class="subtextHeading">245/40-18</span></h2>
+
+      <!-- END TIRE HEADINGS -->
+      <h2 class="titleHide sportExhaustTitle">Sport Exhaust</h2>
+      <h2 class="titleHide k40Title">K-40</h2>
+      <h2 class="titleHide escortFrontTitle">Escort: Front</h2>
+      <h2 class="titleHide escortFRTitle">Escort: Front + Rear</h2>
+      <h2 class="titleHide cbFrontHoodTitle">Clear Bra: Front Hood Bikini Cut + Mirrors</h2>
+      <h2 class="titleHide cbWholeFrontTitle">Clear Bra: Whole Front End</h2>
+      <h2 class="titleHide puddleLightsTitle">Puddle Lights</h2>
+      <h2 class="titleHide dvrTitle">DVR</h2>
+      <h2 class="titleHide twoToneStitchTitle">Two Tone Stitching</h2>
+      <h2 class="titleHide fogLightsTitle">Fog Lights</h2>
+      <h2 class="titleHide stsTitle">Short Throw Shifter (STS)</h2>
+
+
+    </div>
         <div id="imageContainer">
 
           <img src="http://joethemovie.com/images/testImpreza.png" alt="" class="image1 mediaContent" />
@@ -26,16 +41,16 @@
               <video src="http://joethemovie.github.io/video/testVid2.mp4" id="videoCont1"></video>
             </div>
           </div>
-          <!-- coupon code html begin -->
-          <div class="couponArea">
-            <input id="text_a" type="text" />
-            <button onclick="myFunction()" id="couponButton">Coupon Code</button>
-            <br>
-            <p id="answer"></p>
-          </div>
-            <!-- coupon code html end -->
-        </div>
 
+        </div>
+        <!-- coupon code html begin -->
+        <div class="couponArea">
+          <input id="text_a" type="text" />
+          <button onclick="myFunction()" id="couponButton">Coupon Code</button>
+          <br>
+          <p id="answer"></p>
+        </div>
+          <!-- coupon code html end -->
       </div>
       <div id="buttonsContainer">
         <button type="button" name="cat1" class="catButton cat1">Media Tests</button>
@@ -62,28 +77,34 @@
               </ul>
             </ul>
           </div>
+
+
         <button type="button" name="cat3" class="catButton cat3">Accessories</button>
           <div id="cat3" class="catArea">
             <ul>
-              <li>Sport Exhaust</li>
-              <li>Radar Detector</li>
+              <li class="menuHeadings"  id="sportExhaust">Sport Exhaust</li>
+              <li class="menuHeadings"  id="radarDetector">Radar Detector</li>
                 <ul>
-                  <li></li>
-                  <li></li>
+                  <li class="optional" id="k40">K-40</li>
+                  <li class="optional" id="escort">Escort</li>
+                    <ul>
+                      <li class="optional" id="front">Front</li>
+                      <li class="optional" id="frontRear">Front + Rear</li>
+                    </ul>
                 </ul>
-              <li>Clear Bra</li>
+              <li class="menuHeadings"  id="clearBra">Clear Bra</li>
                 <ul>
-                  <li>Front Hood Bikini Cut + Mirrors</li>
-                  <li>Whole Front End</li>
+                  <li class="optional" id="frontHoodBikini">Front Hood Bikini Cut + Mirrors</li>
+                  <li class="optional" id="wholeFrontEnd">Whole Front End</li>
                 </ul>
-              <li>Puddle Lights</li>
-              <li>DVR</li>
-              <li>Custom Leather</li>
+              <li class="menuHeadings"  id="puddleLights">Puddle Lights</li>
+              <li class="menuHeadings"  id="dvr">DVR</li>
+              <li class="menuHeadings"  id="customLeather">Custom Leather</li>
                 <ul>
-                  <li>Two Tone Stitching</li>
+                  <li class="optional" id="twoToneStitch">Two Tone Stitching</li>
                 </ul>
-              <li>Fog Lights</li>
-              <li>Short Throw Shifter (STS)</li>
+              <li class="menuHeadings"  id="fogLights">Fog Lights</li>
+              <li class="menuHeadings"  id="sts">Short Throw Shifter (STS)</li>
             </ul>
           </div>
 
