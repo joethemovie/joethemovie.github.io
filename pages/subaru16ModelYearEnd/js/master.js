@@ -2,7 +2,21 @@ $(document).ready(function(){
 
   var vehicleArray = [];
 
-  function Vehicle(stock, car, trim, carColor, modelCode, msrp, specialPrice, img, url, engine, mpg, doors, trans) {
+  function Vehicle(
+    stock,
+    car,
+    trim,
+    carColor,
+    modelCode,
+    msrp,
+    specialPrice,
+    img,
+    url,
+    engine,
+    mpg,
+    doors,
+    trans
+    ){
     this.stock = stock;
     this.car = car;
     this.trim = trim;
