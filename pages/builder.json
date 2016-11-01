@@ -1,0 +1,23 @@
+{
+  "impreza": {
+    "base25": {
+      "cbs": {
+        "car": "2017 Subaru Impreza",
+        "trim": "2.0i",
+        "engine": "2.0l 4-cyl AWD",
+        "transmission": ["Automatic", "Manual"],
+        "header": "imprezaheader",
+        "vehicleImage": "http://joethemovie.com/2017-Vehicle-Pricing-App/Subaru/Impreza/2.0i%20Sedan/cbs.png",
+      },
+      "cwp": {
+        "car": "2017 Subaru Impreza",
+        "trim": "2.0i",
+        "engine": "2.0l 4-cyl AWD",
+        "transmission": ["Automatic", "Manual"],
+        "header": "imprezaheader",
+        "vehicleImage": "http://joethemovie.com/2017-Vehicle-Pricing-App/Subaru/Impreza/2.0i%20Sedan/cwp.png",
+      }
+      }
+    }
+  }
+}
